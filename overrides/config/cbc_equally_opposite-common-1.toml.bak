@@ -1,0 +1,103 @@
+[general]
+	#Whether cannons mounted on Sable sublevels should apply recoil impulses when fired.
+	disableRecoil = false
+	#Whether projectiles should apply impact impulses when striking Sable sublevels.
+	disableImpact = false
+	#Logs the details of recoil and impact events
+	debugImpulses = false
+
+[units]
+	#Converts SI impulse in kg*m/s or N*s into Sable impulse units. Default assumes 4 Sable kpg = 7873 kg (based off of the iron block kpg weight vs irl weight), so scale = 4 / 7873.
+	# Default: 5.080655404547187E-4
+	# Range: 0.0 ~ 1.7976931348623157E308
+	impulseScale = 5.080655404547187E-4
+
+[recoil]
+	#Multiplier for projectile momentum in the recoil equation.
+	# Default: 1.0
+	# Range: 0.0 ~ 1000.0
+	projectileMomentumMultiplier = 1.0
+	#Multiplier for propellant gas momentum when Going Ballistic data or fallback gas impulse is used.
+	# Default: 1.0
+	# Range: 0.0 ~ 1000.0
+	gasMomentumMultiplier = 1.0
+	#Effective propellant gas velocity as a multiple of projectile velocity.
+	# Default: 1.25
+	# Range: 0.0 ~ 1000.0
+	gasVelocityMultiplier = 1.25
+	#Distance behind the projectile spawn point where recoil is applied. This approximates the breech position.
+	# Default: 1.0
+	# Range: 0.0 ~ 16.0
+	recoilApplicationOffsetBlocks = 1.0
+	#Additional recoil application ticks per powder charge equivalent, approximating propellant vent time.
+	# Default: 1.0
+	# Range: 0.0 ~ 100.0
+	recoilVentTicksPerCharge = 1.0
+
+[baseCbcFallbacks]
+	#Fallback projectile mass for base cannon recoil when Going Ballistic is absent.
+	# Default: 3000.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	baseCannonProjectileMass = 3000.0
+	#Fallback projectile mass for base autocannon recoil when Going Ballistic is absent.
+	# Default: 33.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	baseAutocannonProjectileMass = 33.0
+	#Fallback cannon gas impulse in N*s.
+	# Default: 50000.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	baseCannonGasImpulse = 50000.0
+	#Fallback autocannon gas impulse in N*s.
+	# Default: 750.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	baseAutocannonGasImpulse = 750.0
+
+[impact]
+	#Fraction of projectile momentum transferred to the hit sublevel.
+	# Default: 0.65
+	# Range: 0.0 ~ 1000.0
+	impactEfficiency = 0.65
+	#Multiplier applied to lost-momentum impact impulse when the projectile penetrates.
+	# Default: 1.0
+	# Range: 0.0 ~ 1000.0
+	penetrationImpulseMultiplier = 1.0
+	#Fraction of projectile kinetic energy lost to plowing through each penetrated block before material scaling.
+	# Default: 0.08
+	# Range: 0.0 ~ 1.0
+	penetrationEnergyLossFraction = 0.08
+	#Effective velocity used to convert penetration energy loss into impulse: impulse = lostEnergy / transferVelocity.
+	# Default: 50.0
+	# Range: 0.001 ~ 1.7976931348623157E308
+	penetrationEnergyTransferVelocity = 50.0
+	#Multiplier applied to the energy-loss impulse before penetrationImpulseMultiplier and global impact clamps.
+	# Default: 1.0
+	# Range: 0.0 ~ 1000.0
+	penetrationEfficiency = 1.0
+	#Block destroy speed/hardness treated as a neutral material factor for penetration energy loss. Stone is about 1.5.
+	# Default: 1.5
+	# Range: 0.001 ~ 1.7976931348623157E308
+	penetrationHardnessReference = 1.5
+	#Exponent applied to block hardness scaling for penetration energy loss. 0 disables material scaling; 1 is linear hardness scaling.
+	# Default: 0.5
+	# Range: 0.0 ~ 8.0
+	penetrationMaterialExponent = 0.5
+	#Multiplier applied to impact impulse when the projectile stops, is destroyed, or shatters.
+	# Default: 1.0
+	# Range: 0.0 ~ 1000.0
+	destroyedImpulseMultiplier = 1.0
+	#Multiplier applied to lost-momentum impact impulse when the projectile bounces or ricochets.
+	# Default: 1.0
+	# Range: 0.0 ~ 1000.0
+	ricochetImpulseMultiplier = 1.0
+	#Fraction of the surface-normal velocity component retained and reversed by a ricochet.
+	# Default: 0.35
+	# Range: 0.0 ~ 2.0
+	ricochetNormalRestitution = 0.35
+	#Fraction of the surface-tangential velocity component retained by a ricochet.
+	# Default: 0.85
+	# Range: 0.0 ~ 2.0
+	ricochetTangentialRetention = 0.85
+	#Fraction of incoming projectile momentum assumed to remain in forward-moving fragments when the projectile shatters/is removed.
+	# Default: 0.25
+	# Range: 0.0 ~ 1.0
+	shatterMomentumRetention = 0.25

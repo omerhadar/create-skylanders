@@ -1,0 +1,6 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"createpropulsionsimulated:thruster"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"createpropulsionsimulated:creative_thruster"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"createpropulsionsimulated:ion_thruster"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:bedrock",
+    "minecraft:obsidian",
+    "#minecraft:logs",
+    "#minecraft:planks",
+    "#minecraft:base_stone_overworld",
+    "#minecraft:walls"
+  ]
+}
