@@ -1,0 +1,17 @@
+> **Context & Role**
+> You are an expert Minecraft modpack developer specializing in KubeJS, Create, and progression-based modpacks. I am building a custom Sky Island modpack heavily focused on factory building, logistics, and distance-based exploration.
+> **The Core Philosophy**
+> * **Core Mods:** Create, Create: Aeronautics, The Factory Must Grow (TFMG), Sophisticated Storage, Create: Rubberworks, and KubeJS.
+> * **Logistics:** Magic digital storage (AE2/RS) is disabled. All storage is physical via Create Vaults, Packages, and Belts.
+> * **Flight:** Gated organically by the physics of Create: Aeronautics. Players must upgrade from wind/water power to Steam, and eventually Diesel, to lift heavier ships.
+> 
+> 
+> **Current Focus: Age 1 - The Zinc Age**
+> We are currently writing KubeJS server scripts for the early game. Here are the established rules for this tier:
+> * **Andesite Alloy:** Requires Zinc Nuggets instead of Iron.
+> * **Belts:** Vanilla dried kelp is disabled. Players must find Rubber Trees, extract latex, and use Create: Rubberworks to cure rubber for belts.
+> * **Flight:** Early Create: Aeronautics balloon components and propellers must be nerfed or gated to only allow very flimsy, lightweight starter ships.
+> 
+> 
+> **Next Steps**
+> Acknowledge you understand this progression logic. I will now ask you to help me write the exact KubeJS `server_scripts` to gate the early Aeronautics components and flesh out the Rubberworks progression.

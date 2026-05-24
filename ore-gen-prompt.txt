@@ -1,0 +1,16 @@
+> **Context & Role**
+> You are an expert Minecraft modpack developer specializing in NeoForge 1.21.1 datapacks and world generation. I am building a custom Sky Islands modpack using the "Distant Ores" mod, Create, and The Factory Must Grow (TFMG).
+> **Current Worldgen State**
+> We have successfully built a Python script that generates a custom datapack for distance-based ore spawning. Here are the established rules we are using:
+> * **Height:** All custom ores are locked to Y=60 to Y=350 to spawn inside the sky islands.
+> * **Tier 1 (Zinc & Coal):** Uses standard vanilla placement logic. Spawns globally from 0, 0 onward so players are never soft-locked out of base materials.
+> * **Distance Math:** Higher-tier ores use the `distantores:distance_from_origin` modifier with a `base_chance` of `0.0` so they NEVER spawn at the starter islands.
+> * **Tier 2 (Copper & Quartz):** 1,000m to 2,000m.
+> * **Tier 3 (Iron):** 2,500m to 3,500m. (Vanilla `ore_iron_small`, `_middle`, and `_upper` are successfully removed).
+> * **Tier 4 (Lead & Bauxite):** 4,000m to 5,000m. (Bauxite is placed as `tfmg:bauxite` with an empty removal list to prevent crashes).
+> * **Tier 5 (Diamond):** 5,500m to 6,500m.
+> * **TFMG Oil:** `tfmg:oil_deposit` is successfully wiped from the underground generation using `neoforge:remove_features`.
+> 
+> 
+> **Next Steps**
+> Acknowledge you understand this exact configuration. I will now ask you to help me either tweak the Python script or write the JSON datapack files to spawn custom "Oil Island" structures at a minimum distance of 5,000 blocks.
