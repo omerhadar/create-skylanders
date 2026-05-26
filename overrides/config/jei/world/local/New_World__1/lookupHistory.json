@@ -1,9 +1,0 @@
-[
-  {"version":1},
-  {"ingredient":{"id":"createpropulsion:cable"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"createpropulsion:cable_relay"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"createpropulsion:oxidizer"},"type":"fluid_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"createpropulsion:oxidizer_bucket"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"create_connected:copycat_block"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"copycats:copycat_block"},"type":"item_stack","bookmarkType":"INGREDIENT"}
-]

@@ -1,6 +1,0 @@
-[
-  {"version":1},
-  {"ingredient":{"id":"createpropulsionsimulated:pine_resin"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"createpropulsionsimulated:turpentine"},"type":"fluid_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"createpropulsionsimulated:turpentine_bucket"},"type":"item_stack","bookmarkType":"INGREDIENT"}
-]
