@@ -1,0 +1,14 @@
+[21:58:37] [INIT] KubeJS 2101.7.2-build.368; MC 2101 NeoForge
+[21:58:37] [INIT] Loaded plugins:
+[21:58:37] [INIT] - dev.latvian.mods.kubejs.plugin.builtin.BuiltinKubeJSPlugin
+[21:58:37] [INIT] - dev.latvian.mods.kubejs.plugin.builtin.BuiltinKubeJSClientPlugin
+[21:58:37] [INIT] - dev.latvian.mods.kubejs.integration.architectury.ArchitecturyIntegration
+[21:58:37] [INIT] - io.github.hadron13.rubberworks.compat.kubejs.KubeJSRubberworksPlugin
+[21:58:37] [INIT] - dev.propulsionteam.propulsionsimulated.compat.kubejs.PropulsionKubeJSPlugin
+[21:58:37] [INIT] - dev.propulsionteam.propulsionsimulated.compat.kubejs.PropulsionKubeJSPlugin
+[21:58:37] [INIT] - dev.latvian.mods.kubejs.create.KubeJSCreatePlugin
+[21:58:37] [INFO] startup_scripts:main.js#2: Hello, World! (Loaded startup example script)
+[21:58:37] [INFO] Loaded script startup_scripts:main.js in 0.021 s
+[21:58:37] [INFO] Loaded 1/1 KubeJS startup scripts in 0.461 s with 0 errors and 0 warnings
+[21:58:37] [INFO] Validated 0 files in kubejs/assets/ in 0ms
+[21:58:37] [INFO] Validated 0 files in kubejs/data/ in 0ms

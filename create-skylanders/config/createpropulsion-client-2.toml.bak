@@ -1,0 +1,49 @@
+[Thruster]
+	#Particle additional velocity modifier when ship is moving in the same direction as exhaust.
+	"Particle velocity offset" = 0.15
+	#The higher this number is - the more particles are spawned.
+	"Particle count multiplier" = 1.0
+	#Particle count multiplier for standard thrusters.
+	"Standard thruster particle count multiplier" = 1.0
+	#Particle velocity multiplier for standard thrusters.
+	"Standard thruster particle velocity multiplier" = 1.0
+	#Particle count multiplier for ion thrusters.
+	"Ion thruster particle count multiplier" = 1.0
+	#Particle velocity multiplier for ion thrusters.
+	"Ion thruster particle velocity multiplier" = 1.0
+	#Particle count multiplier for vector thrusters.
+	"Vector thruster particle count multiplier" = 1.0
+	#Particle velocity multiplier for vector thrusters.
+	"Vector thruster particle velocity multiplier" = 1.0
+	#Particle count multiplier for creative thrusters.
+	"Creative thruster particle count multiplier" = 1.0
+	#Particle velocity multiplier for creative thrusters.
+	"Creative thruster particle velocity multiplier" = 1.0
+	#Particle count multiplier for creative vector thrusters.
+	"Creative vector thruster particle count multiplier" = 1.0
+	#Particle velocity multiplier for creative vector thrusters.
+	"Creative vector thruster particle velocity multiplier" = 1.0
+
+["Stirling Engine"]
+	#Revolution period of the simulated shaft (affects only piston movement).
+	"Revolution period" = 0.2
+	#Radius of the simulated crank.
+	"Crank radius" = 0.125
+	#Length of the simulated conrod.
+	"Conrod length" = 0.5
+
+[Debug]
+	#Render thruster debug overlays (plume ray, obstruction hits, damage zones).
+	Thruster = false
+	#Render burner debug overlays.
+	Burner = false
+	#Enable magnet debug overlays.
+	Magnet = false
+
+[Burners]
+	#Allow propulsion burners to heat Create steam engines.
+	"Burners heat steam engines" = true
+	#Allow seething burners to count as superheated for steam engines.
+	"Burners superheat steam engines" = true
+	#Allow vanilla blaze burners under stirling engines to provide heat.
+	"Blaze burners heat stirling engines" = true

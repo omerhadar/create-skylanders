@@ -1,0 +1,10 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"create:golden_sheet"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"createaddition:gold_wire"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:gold_ingot"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"createbigcannons:cannon_carriage"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"createbigcannons:pair_of_cannon_wheels"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:crafting_table"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"ecologics:coconut_log"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]
