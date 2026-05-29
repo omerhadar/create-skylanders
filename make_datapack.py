@@ -26,7 +26,7 @@ TIERS = [
     ("nickel", ["tfmg:nickel_ore"], "tfmg:nickel_ore", "tfmg:deepslate_nickel_ore", 5000, 6000, 0.0, 10, 10), 
     
     # Tier 5
-    ("diamond", ["minecraft:ore_diamond", "minecraft:ore_diamond_large", "minecraft:ore_diamond_buried"], "minecraft:diamond_ore", "minecraft:deepslate_diamond_ore", 6500, 7500, 0.0, 8, 10),
+    ("diamond", ["minecraft:ore_diamond", "minecraft:ore_diamond_large", "minecraft:ore_diamond_buried", "minecraft:ore_diamond_medium"], "minecraft:diamond_ore", "minecraft:deepslate_diamond_ore", 6500, 7500, 0.0, 8, 10),
     ("emerald", ["minecraft:ore_emerald"], "minecraft:emerald_ore", "minecraft:deepslate_emerald_ore", 5500, 6500, 0.0, 6, 10),
 
     # Create Custom "Strikes" (Massive dense resource blobs)
@@ -70,8 +70,8 @@ for ore_name, feats_to_remove, stone_block, deepslate_block, min_dist, max_dist,
         write_json(os.path.join(neo_dir, f"remove_{ore_name}.json"), {
             "type": "neoforge:remove_features",
             "biomes": "#minecraft:is_overworld",
-            "features": feats_to_remove,
-            "step": "underground_ores" # FIXED: Removed the 's' so it correctly parses in 1.21.1
+            "features": feats_to_remove
+            #"step": "underground_ores" # FIXED: Removed the 's' so it correctly parses in 1.21.1
         })
 
     write_json(os.path.join(neo_dir, f"add_{ore_name}.json"), {

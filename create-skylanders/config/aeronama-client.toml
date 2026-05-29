@@ -1,0 +1,24 @@
+#=== Aeronama — Client Configuration ===
+[panorama]
+	#Which panorama to display on the main menu.
+	#  DEFAULT  — Vanilla Minecraft panorama
+	#  FIRST    — Custom panorama #1 bundled inside this mod
+	#  SECOND   — Custom panorama #2 bundled inside this mod
+	#  EXTERNAL — Add your panorama in config/aeronama/
+	#             (panorama_0.png ... panorama_5.png)
+	#
+	#Changes apply after pressing F3+T — no restart needed.
+	#Allowed Values: DEFAULT, FIRST, SECOND, EXTERNAL
+	panoramaMode = "FIRST"
+
+[logo]
+	#Which logo and edition badge to display on the main menu.
+	#  DEFAULT  — Vanilla Minecraft logo and edition badge
+	#  FIRST    — Logo bundled inside this mod
+	#  EXTERNAL — Load from config/aeronama/
+	#             Place minecraft.png and/or edition.png there.
+	#             If only one file is provided, the other falls back to FIRST.
+	#
+	#Changes apply after restart or F3+T if you are in-game (not menu).
+	#Allowed Values: DEFAULT, FIRST, EXTERNAL
+	logoMode = "FIRST"
