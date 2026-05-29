@@ -21,12 +21,12 @@
 	#Thrust scaling for Wooden Propellers
 	# Default: 1.0
 	# Range: 0.0 ~ 3.4028234663852886E38
-	woodenPropellerThrust = 1.0
+	woodenPropellerThrust = 0.5
 	#.
 	#Airflow scaling for Wooden Propellers
 	# Default: 0.10000000149011612
 	# Range: 0.0 ~ 3.4028234663852886E38
-	woodenPropellerAirflow = 0.10000000149011612
+	woodenPropellerAirflow = 0.05000000149011612
 	#.
 	#Thrust scaling for Andesite Propellers
 	# Default: 1.0
