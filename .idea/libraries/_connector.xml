@@ -1,0 +1,21 @@
+<component name="libraryTable">
+  <library name=".connector">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/create-skylanders/mods/.connector/nvidium-0.3.1_mapped_moj_1.21.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/create-skylanders/mods/.connector/voxy-0.2.14-alpha-c54de232$lwjgl-lmdb-3.3.3-natives-linux_mapped_moj_1.21.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/create-skylanders/mods/.connector/voxy-0.2.14-alpha-c54de232$rocksdbjni-10.2.1_mapped_moj_1.21.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/create-skylanders/mods/.connector/voxy-0.2.14-alpha-c54de232$lwjgl-zstd-3.3.3_mapped_moj_1.21.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/create-skylanders/mods/.connector/voxy-0.2.14-alpha-c54de232$lwjgl-lmdb-3.3.3-natives-windows_mapped_moj_1.21.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/create-skylanders/mods/.connector/voxy-0.2.14-alpha-c54de232$lwjgl-zstd-3.3.3-natives-windows_mapped_moj_1.21.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/create-skylanders/mods/.connector/voxy-0.2.14-alpha-c54de232_mapped_moj_1.21.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/create-skylanders/mods/.connector/voxy-0.2.14-alpha-c54de232$commons-pool2-2.12.0_mapped_moj_1.21.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/create-skylanders/mods/.connector/voxy-0.2.14-alpha-c54de232$lwjgl-zstd-3.3.3-natives-linux_mapped_moj_1.21.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/create-skylanders/mods/.connector/voxy-0.2.14-alpha-c54de232$jedis-5.1.0_mapped_moj_1.21.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/create-skylanders/mods/.connector/voxy-0.2.14-alpha-c54de232$lwjgl-lmdb-3.3.3_mapped_moj_1.21.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/create-skylanders/mods/.connector/Voxy World Gen V2-1.21.1-2.1.0_mapped_moj_1.21.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/create-skylanders/mods/.connector/voxy-0.2.14-alpha-c54de232$xz-1.10_mapped_moj_1.21.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

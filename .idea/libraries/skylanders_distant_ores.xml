@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="skylanders_distant_ores">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/create-skylanders/datapacks/skylanders_distant_ores.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

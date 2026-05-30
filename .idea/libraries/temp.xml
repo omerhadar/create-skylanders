@@ -1,0 +1,19 @@
+<component name="libraryTable">
+  <library name="temp">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/create-skylanders/mods/.connector/temp/voxy-0.2.14-alpha-c54de232$lwjgl-zstd-3.3.3-natives-linux.jar!/" />
+      <root url="jar://$PROJECT_DIR$/create-skylanders/mods/.connector/temp/voxy-0.2.14-alpha-c54de232$jedis-5.1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/create-skylanders/mods/.connector/temp/voxy-0.2.14-alpha-c54de232$lz4-java-1.8.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/create-skylanders/mods/.connector/temp/voxy-0.2.14-alpha-c54de232$commons-pool2-2.12.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/create-skylanders/mods/.connector/temp/voxy-0.2.14-alpha-c54de232$lwjgl-zstd-3.3.3-natives-windows.jar!/" />
+      <root url="jar://$PROJECT_DIR$/create-skylanders/mods/.connector/temp/voxy-0.2.14-alpha-c54de232$lwjgl-lmdb-3.3.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/create-skylanders/mods/.connector/temp/voxy-0.2.14-alpha-c54de232$rocksdbjni-10.2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/create-skylanders/mods/.connector/temp/voxy-0.2.14-alpha-c54de232$lwjgl-lmdb-3.3.3-natives-windows.jar!/" />
+      <root url="jar://$PROJECT_DIR$/create-skylanders/mods/.connector/temp/voxy-0.2.14-alpha-c54de232$lwjgl-lmdb-3.3.3-natives-linux.jar!/" />
+      <root url="jar://$PROJECT_DIR$/create-skylanders/mods/.connector/temp/voxy-0.2.14-alpha-c54de232$lwjgl-zstd-3.3.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/create-skylanders/mods/.connector/temp/voxy-0.2.14-alpha-c54de232$xz-1.10.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,72 @@
+<component name="libraryTable">
+  <library name="mods">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/create-skylanders/mods/rubberworks-neoforge-1.21.1-1.1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/create-skylanders/mods/curios-neoforge-9.5.1+1.21.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/create-skylanders/mods/sophisticatedcore-1.21.1-1.4.42.1892.jar!/" />
+      <root url="jar://$PROJECT_DIR$/create-skylanders/mods/kubejs-create-neoforge-2101.3.1-build.18.jar!/" />
+      <root url="jar://$PROJECT_DIR$/create-skylanders/mods/architectury-13.0.8-neoforge.jar!/" />
+      <root url="jar://$PROJECT_DIR$/create-skylanders/mods/iris-neoforge-1.8.12+mc1.21.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/create-skylanders/mods/sodium-neoforge-0.6.13+mc1.21.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/create-skylanders/mods/voxy-0.2.14-alpha-c54de232.jar!/" />
+      <root url="jar://$PROJECT_DIR$/create-skylanders/mods/create-1.21.1-6.0.10.jar!/" />
+      <root url="jar://$PROJECT_DIR$/create-skylanders/mods/forgified-fabric-api-0.116.7+2.2.4+1.21.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/create-skylanders/mods/createbigcannons-5.11.3-dev-mc.1.21.1-build.278.jar!/" />
+      <root url="jar://$PROJECT_DIR$/create-skylanders/mods/skylandersmeteors-1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/create-skylanders/mods/sophisticatedbackpacks-1.21.1-3.25.49.1791.jar!/" />
+      <root url="jar://$PROJECT_DIR$/create-skylanders/mods/jei-1.21.1-neoforge-19.27.0.336.jar!/" />
+      <root url="jar://$PROJECT_DIR$/create-skylanders/mods/aerocopycats-1.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/create-skylanders/mods/lithostitched-1.7.9-neoforge-21.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/create-skylanders/mods/ritchiesprojectilelib-2.1.2-mc.1.21.1-neoforge.jar!/" />
+      <root url="jar://$PROJECT_DIR$/create-skylanders/mods/sable-neoforge-1.21.1-1.2.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/create-skylanders/mods/createaddition-1.5.11.jar!/" />
+      <root url="jar://$PROJECT_DIR$/create-skylanders/mods/appleskin-neoforge-mc1.21-3.0.9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/create-skylanders/mods/tectonic-3.0.22-neoforge-21.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/create-skylanders/mods/nvidium-0.3.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/create-skylanders/mods/buildinggadgets2-1.3.9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/create-skylanders/mods/cbc_fuze_sable_fix-1.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/create-skylanders/mods/Jade-1.21.1-NeoForge-15.10.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/create-skylanders/mods/create_connected-1.2.0-mc1.21.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/create-skylanders/mods/Glodium-1.21-2.2-neoforge.jar!/" />
+      <root url="jar://$PROJECT_DIR$/create-skylanders/mods/onlyflax-1.21.1-neoforge-1.0.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/create-skylanders/mods/distantores-1.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/create-skylanders/mods/geckolib-neoforge-1.21.1-4.8.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/create-skylanders/mods/xaerominimap-neoforge-1.21.1-25.3.13.jar!/" />
+      <root url="jar://$PROJECT_DIR$/create-skylanders/mods/CBC-Military-Supplement-1.21.1-2.0.12.jar!/" />
+      <root url="jar://$PROJECT_DIR$/create-skylanders/mods/aeroworks-1.2.9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/create-skylanders/mods/sophisticatedbackpackscreateintegration-1.21.1-0.1.5.29.jar!/" />
+      <root url="jar://$PROJECT_DIR$/create-skylanders/mods/copycats-3.0.4+mc.1.21.1-neoforge.jar!/" />
+      <root url="jar://$PROJECT_DIR$/create-skylanders/mods/Chunky-NeoForge-1.4.23.jar!/" />
+      <root url="jar://$PROJECT_DIR$/create-skylanders/mods/lithium-neoforge-0.15.3+mc1.21.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/create-skylanders/mods/sophisticatedstoragecreateintegration-1.21.1-0.1.17.132.jar!/" />
+      <root url="jar://$PROJECT_DIR$/create-skylanders/mods/sable_xaero_bridge-0.1.11.jar!/" />
+      <root url="jar://$PROJECT_DIR$/create-skylanders/mods/PuzzlesLib-v21.1.50-1.21.1-NeoForge.jar!/" />
+      <root url="jar://$PROJECT_DIR$/create-skylanders/mods/alltheleaks-1.1.9+1.21.1-neoforge.jar!/" />
+      <root url="jar://$PROJECT_DIR$/create-skylanders/mods/xaeroworldmap-neoforge-1.21.1-1.40.16.jar!/" />
+      <root url="jar://$PROJECT_DIR$/create-skylanders/mods/cbc_equally_opposite-0.1.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/create-skylanders/mods/ok_zoomer-neo-10.0.0-beta.13.jar!/" />
+      <root url="jar://$PROJECT_DIR$/create-skylanders/mods/LeavesBeGone-v21.1.1-1.21.1-NeoForge.jar!/" />
+      <root url="jar://$PROJECT_DIR$/create-skylanders/mods/sablejade-1.1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/create-skylanders/mods/create-aeronautics-bundled-1.21.1-1.2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/create-skylanders/mods/clearvoid-mc1.21.1-1.3.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/create-skylanders/mods/Voxy World Gen V2-1.21.1-2.1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/create-skylanders/mods/kubejs-neoforge-2101.7.2-build.368.jar!/" />
+      <root url="jar://$PROJECT_DIR$/create-skylanders/mods/ftb-library-neoforge-2101.1.31.jar!/" />
+      <root url="jar://$PROJECT_DIR$/create-skylanders/mods/tfmg-1.2.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/create-skylanders/mods/aeronama-2.2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/create-skylanders/mods/rhino-2101.2.7-build.81.jar!/" />
+      <root url="jar://$PROJECT_DIR$/create-skylanders/mods/ftb-obsidian-21.1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/create-skylanders/mods/CBCmoreshells-1.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/create-skylanders/mods/sky_archipelago-1.3.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/create-skylanders/mods/configured-neoforge-1.21.1-2.6.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/create-skylanders/mods/createbigcannons-5.11.3-mc.1.21.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/create-skylanders/mods/sophisticatedstorage-1.21.1-1.5.52.1756.jar!/" />
+      <root url="jar://$PROJECT_DIR$/create-skylanders/mods/createpropulsion-1.1.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/create-skylanders/mods/treephysics-1.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/create-skylanders/mods/connector-2.0.0-beta.14+1.21.1-full.jar!/" />
+      <root url="jar://$PROJECT_DIR$/create-skylanders/mods/ecologics-1.21.1-2.3.6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,45 +1,36 @@
-// Define all your foundry metals here! 
-// You can add Iron, Gold, Lead, etc., later by just adding a new line.
 const METALS = [
-    { name: 'copper', color: 0xFF7A59 }, // Bright orange
-    { name: 'zinc', color: 0xD0DFE5 }    // Pale bluish-gray
+    { name: 'copper', color: 0xFF7A59 }
 ]
 
 StartupEvents.registry('item', event => {
-    // The Empty Mold (Layer 0)
-    event.create('ingot_mold')
-         .displayName('Terracotta Ingot Mold')
-         .texture('kubejs:item/ingot_mold_empty')
+    // Intermediate smelting blend used before the TFMG foundry line is built
+    event.create('unrefined_copper_blend')
+        .displayName('Unrefined Copper Blend')
+        .texture('minecraft:item/gunpowder')
+        .color(0, 0xFF7A59)
 
-    METALS.forEach(metal => {
-        // Capitalize name for display
-        let displayName = metal.name.charAt(0).toUpperCase() + metal.name.slice(1)
+    // Millstone product from coal/charcoal; replaces raw charcoal in the copper blend
+    // Uses gunpowder's granular texture tinted near-black to suggest carbon/charcoal dust
+    event.create('carbon_dust')
+        .displayName('Carbon Dust')
+        .texture('minecraft:item/gunpowder')
+        .color(0, 0x202020)
 
-        // Hot Mold
-        event.create(`hot_${metal.name}_mold`)
-            .displayName(`Hot ${displayName} Mold`)
-            .texture('layer0', 'kubejs:item/ingot_mold_empty') // The terracotta base
-            .texture('layer1', 'kubejs:item/ingot_mold_metal') // The liquid metal inside
-            .color(1, metal.color) // Tints ONLY layer1 with the metal's color!
-            .glow(true) // Makes it look bright and hot
-
-        // Cooled Mold
-        event.create(`cooled_${metal.name}_mold`)
-            .displayName(`Cooled ${displayName} Mold`)
-            .texture('layer0', 'kubejs:item/ingot_mold_empty') 
-            .texture('layer1', 'kubejs:item/ingot_mold_metal')
-            .color(1, metal.color) // Tints the metal layer
-    })
+    // Copper-age crafting tool — consumed (loses durability) when hammering sheets
+    event.create('copper_hammer')
+        .displayName('Copper Hammer')
+        .texture('kubejs:item/copper_hammer')
+        .maxDamage(128)
+        .tag('forge:hammers')
 })
 
 StartupEvents.registry('fluid', event => {
     METALS.forEach(metal => {
-        let displayName = metal.name.charAt(0).toUpperCase() + metal.name.slice(1)
-        
+        const displayName = metal.name.charAt(0).toUpperCase() + metal.name.slice(1)
         event.create(`molten_${metal.name}`)
             .displayName(`Molten ${displayName}`)
             .stillTexture('minecraft:block/lava_still')
             .flowingTexture('minecraft:block/lava_flow')
-            .tint(metal.color) // Automatically creates lava textures + bucket colored to match
+            .tint(metal.color)
     })
 })
