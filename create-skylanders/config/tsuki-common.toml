@@ -1,0 +1,40 @@
+#General settings
+[general]
+	#Changes generate amount of Iron Sand. Increase value to gen more Iron Sand.
+	# Default: 128
+	# Range: 1 ~ 5120
+	iron_sand_amount = 128
+	#Changes the experience needed to upgrade Mythic Pickaxe. Increase value to make it harder to upgrade.
+	# Default: 10000
+	# Range: > 1
+	mythic_pickaxe_exp_needed = 10000
+	#Allows Mythic Pickaxe to upgrade Fortune or Silk Touch when it has neither enchantment.
+	mythic_pickaxe_allow_basic_enchant_upgrade = true
+	#Gives the Tsuki guide book to players the first time they join a world when GuideME is installed.
+	give_guide_on_first_login = true
+	#Enables the White Magatama max health penalty.
+	magatama_white_enable_penalty = true
+	#Sets the White Magatama target max health while the penalty is active.
+	# Default: 10.0
+	# Range: 1.0 ~ 1024.0
+	magatama_white_penalty_health = 10.0
+	#Sets the Blue Magatama health cost per weather conversion.
+	# Default: 4.0
+	# Range: 0.0 ~ 1024.0
+	magatama_blue_health_cost = 4.0
+	#Sets the remaining health after using the Green Magatama.
+	# Default: 1.0
+	# Range: 0.1 ~ 1024.0
+	magatama_green_remaining_health = 1.0
+	#Sets how many crop or seed drops the Green Magatama draws per use.
+	# Default: 32
+	# Range: 1 ~ 1024
+	magatama_green_draw_count = 32
+	#Enables the White Magatama airborne mining speed compensation.
+	magatama_white_enable_mining_speed_compensation = true
+	#Sets the White Magatama airborne mining speed compensation multiplier.
+	# Default: 5.0
+	# Range: 1.0 ~ 64.0
+	magatama_white_mining_speed_compensation_multiplier = 5.0
+	#Enables debug mode.
+	debug_mode = false

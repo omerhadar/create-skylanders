@@ -69,5 +69,8 @@
     "registry_name": "OFF",
     "block_properties": false,
     "mod_name": true
+  },
+  "tsuki": {
+    "machine_info": true
   }
 }

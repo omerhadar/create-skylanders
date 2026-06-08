@@ -1,0 +1,4 @@
+#Client settings
+[client]
+	#Allow inserting cooking pot input items into occupied input slots.
+	allow_cooking_pot_input_stacking = false

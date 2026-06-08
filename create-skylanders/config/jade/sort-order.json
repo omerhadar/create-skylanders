@@ -3,6 +3,7 @@
   "jade:block_properties": null,
   "jade:block_states": null,
   "jade:distance": null,
+  "jade:hide_things": null,
   "jade:mod_name": null,
   "jade:object_name": null,
   "jade:registry_name": null,
@@ -59,5 +60,6 @@
   "minecraft:villager_profession": null,
   "minecraft:waxed": null,
   "minecraft:zombie_villager": null,
-  "sablejade:physics_tooltip": null
+  "sablejade:physics_tooltip": null,
+  "tsuki:machine_info": null
 }

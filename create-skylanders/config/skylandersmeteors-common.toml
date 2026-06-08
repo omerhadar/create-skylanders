@@ -1,0 +1,12 @@
+#Maximum number of blocks that can be flood-filled and captured into a Contraption Capsule.
+#Set to 0 to disable the limit (bounded only by available memory).
+# Default: 10000
+# Range: > 0
+contraptionCapsuleBlockLimit = 100000
+#Speed multiplier applied to standard tfmg:industrial_blasting recipes when processed in the
+#Advanced Industrial Blast Furnace. 1.0 = same speed as the normal IBF; 1.5 = 50% faster.
+#Recipes of type skylandersmeteors:advanced_industrial_blasting are NOT affected (they run at
+#their own processing_time).
+# Default: 1.5
+# Range: 1.0 ~ 100.0
+advancedIbfSpeedMultiplier = 1.5

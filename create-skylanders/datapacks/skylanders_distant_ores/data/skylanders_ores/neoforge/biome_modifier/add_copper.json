@@ -1,0 +1,8 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#minecraft:is_overworld",
+  "features": [
+    "skylanders_ores:copper_sky"
+  ],
+  "step": "underground_ores"
+}

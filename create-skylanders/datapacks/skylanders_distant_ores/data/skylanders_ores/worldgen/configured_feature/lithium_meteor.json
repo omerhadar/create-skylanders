@@ -1,0 +1,64 @@
+{
+  "type": "skylandersmeteors:meteor",
+  "config": {
+    "outer_shell": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:dripstone_block"
+      }
+    },
+    "middle_shell": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:calcite"
+      }
+    },
+    "inner_shell": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:blackstone"
+      }
+    },
+    "filling": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "tfmg:lithium_ore"
+      }
+    },
+    "floor": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "kubejs:lithium_deposit"
+      }
+    },
+    "radius": {
+      "type": "minecraft:weighted_list",
+      "distribution": [
+        {
+          "data": {
+            "type": "minecraft:uniform",
+            "min_inclusive": 3,
+            "max_inclusive": 5
+          },
+          "weight": 3
+        },
+        {
+          "data": {
+            "type": "minecraft:uniform",
+            "min_inclusive": 6,
+            "max_inclusive": 9
+          },
+          "weight": 4
+        },
+        {
+          "data": {
+            "type": "minecraft:uniform",
+            "min_inclusive": 10,
+            "max_inclusive": 14
+          },
+          "weight": 2
+        }
+      ]
+    }
+  }
+}

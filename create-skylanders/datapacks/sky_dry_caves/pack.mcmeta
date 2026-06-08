@@ -1,0 +1,6 @@
+{
+  "pack": {
+    "pack_format": 48,
+    "description": "Disable aquifers + drop sea level so island caves stay dry. Overrides Tectonic noise_settings; jar untouched."
+  }
+}

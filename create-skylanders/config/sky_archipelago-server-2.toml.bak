@@ -1,4 +1,0 @@
-#Broadcast accepted POI coordinates in server chat for debugging.
-structureDebugBroadcastEnabled = false
-#Emit detailed accepted/rejected structure placement logs.
-structureVerboseLogsEnabled = false

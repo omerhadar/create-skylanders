@@ -1,0 +1,40 @@
+{
+  "type": "skylandersmeteors:meteor",
+  "config": {
+    "outer_shell": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:tuff"
+      }
+    },
+    "middle_shell": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:smooth_basalt"
+      }
+    },
+    "inner_shell": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:blackstone"
+      }
+    },
+    "filling": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "tfmg:crude_oil"
+      }
+    },
+    "floor": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "tfmg:oil_deposit"
+      }
+    },
+    "radius": {
+      "type": "minecraft:uniform",
+      "min_inclusive": 10,
+      "max_inclusive": 16
+    }
+  }
+}

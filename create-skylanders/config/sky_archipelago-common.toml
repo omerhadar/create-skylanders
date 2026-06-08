@@ -1,7 +1,7 @@
 #Chance that a cluster cell becomes an island anchor. Lower values create larger sky gaps.
 # Default: 0.4
 # Range: 0.01 ~ 1.0
-islandDensity = 0.4
+islandDensity = 0.8
 #Minimum horizontal island radius in blocks.
 # Default: 24
 # Range: 8 ~ 128
@@ -52,23 +52,23 @@ largeIslandWeight = 0.33
 #Minimum Y for island centers. Values above 320 require world-height expansion mods/settings.
 # Default: 20
 # Range: -32 ~ 2000
-minIslandY = 20
+minIslandY = 0
 #Maximum Y for island centers. Values above 320 require world-height expansion mods/settings.
 # Default: 170
 # Range: -16 ~ 2000
-maxIslandY = 170
+maxIslandY = 1000
 #Relative weight of the uncommon low-island height band.
 # Default: 0.15
 # Range: 0.0 ~ 10.0
-lowBandWeight = 0.15
+lowBandWeight = 0.33
 #Relative weight of the dominant mid/high island height band.
 # Default: 0.75
 # Range: 0.0 ~ 10.0
-midHighBandWeight = 0.75
+midHighBandWeight = 0.34
 #Relative weight of the rare very-high island height band.
 # Default: 0.1
 # Range: 0.0 ~ 10.0
-veryHighBandWeight = 0.1
+veryHighBandWeight = 0.33
 #Center offset applied to the low-island band within the configured vertical envelope.
 # Default: -18
 # Range: -96 ~ 96
@@ -80,18 +80,18 @@ veryHighBandCenterOffset = 12
 #Average spacing between island clusters in blocks.
 # Default: 96
 # Range: 32 ~ 2000
-clusterSpacing = 96
+clusterSpacing = 1300
 #Cluster spacing mode. CONSISTENT uses fixed spacing. DYNAMIC picks deterministic per-world spacing from min/max.
 #Allowed Values: CONSISTENT, DYNAMIC
 clusterSpacingMode = "CONSISTENT"
 #Dynamic spacing mode: minimum cluster spacing in blocks.
 # Default: 96
 # Range: 32 ~ 2000
-minClusterSpacing = 96
+minClusterSpacing = 1300
 #Dynamic spacing mode: maximum cluster spacing in blocks.
 # Default: 96
 # Range: 32 ~ 2000
-maxClusterSpacing = 96
+maxClusterSpacing = 1300
 #Multiplier for island top-surface height variation. Higher values create rougher, less flat tops.
 # Default: 1.0
 # Range: 0.0 ~ 40.0
@@ -130,11 +130,11 @@ oceanLevelY = 0
 oceanFloorNoiseEnabled = true
 #Base depth below ocean level for the ocean floor shape.
 # Default: 18
-# Range: 0 ~ 128
+# Range: 0 ~ 2000
 oceanFloorBaseOffset = 18
 #Vertical amplitude of ocean floor noise in blocks.
 # Default: 10
-# Range: 0 ~ 128
+# Range: 0 ~ 2000
 oceanFloorNoiseAmplitude = 10
 #Horizontal scale of ocean floor noise. Lower values make broader features.
 # Default: 0.05
@@ -142,11 +142,11 @@ oceanFloorNoiseAmplitude = 10
 oceanFloorNoiseScale = 0.05
 #Minimum depth below ocean level for ocean floor clamping.
 # Default: 8
-# Range: 1 ~ 128
+# Range: 1 ~ 2000
 oceanFloorMinDepth = 8
 #Maximum depth below ocean level for ocean floor clamping.
 # Default: 40
-# Range: 1 ~ 128
+# Range: 1 ~ 2000
 oceanFloorMaxDepth = 40
 #Fluid block used by the optional ocean layer. Accepted values: water, lava.
 oceanBlockType = "WATER"
@@ -292,7 +292,7 @@ skyStructureCategoryOverrides = ["minecraft:pillager_outpost=SURFACE_SKY", "mine
 # Range: 24 ~ 1024
 maxIslandThicknessBlocks = 140
 #Whether island clusters should be skipped when sampled biome is ocean.
-disableIslandsOverOceanBiomes = false
+disableIslandsOverOceanBiomes = true
 #Whether river/beach terrain profiles blend into neighboring non-river/beach profiles.
 biomeProfileBlendingEnabled = true
 #Neighborhood sample radius in blocks used by biome profile blending.

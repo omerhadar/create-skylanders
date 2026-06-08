@@ -1,0 +1,13 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"tfmg:galena"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:dark_oak_fence"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"create:factory_gauge"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"cbc_enhanced_shells:h_bomb_shell"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"bettercopper:copper_heart"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"bettercopper:reversed_copper_heart"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"bettercopper:copper_horse_armor"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"bettercopper:copper_pickaxe"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"simulated:iron_handle"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"simulated:copper_handle"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]
