@@ -1,0 +1,641 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "copper_age"
+	group: ""
+	icon: {
+		id: "minecraft:copper_ingot"
+	}
+	id: "7200000000000001"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"7100000000001024"
+				"7100000000001025"
+				"7100000000001009"
+			]
+			id: "7200000000001001"
+			rewards: [{
+				id: "7200000000003001"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "7200000000002001"
+				type: "custom"
+			}]
+			x: -4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7200000000001007"]
+			id: "7200000000001011"
+			rewards: [{
+				id: "7200000000003011"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "7200000000002011"
+				item: { count: 1, id: "create:steam_engine" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["5816E62B56857ECD"]
+			id: "7200000000001002"
+			rewards: [{
+				id: "7200000000003002"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "7200000000002002"
+				item: { count: 1, id: "tfmg:coke_oven" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7200000000001002"]
+			id: "7200000000001003"
+			rewards: [{
+				id: "7200000000003003"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "7200000000002003"
+				item: { count: 1, id: "tfmg:coal_coke" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7200000000001003"]
+			id: "7200000000001004"
+			rewards: [{
+				id: "7200000000003004"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "7200000000002004"
+				item: { count: 1, id: "tfmg:coal_coke_dust" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6A801F5272DB0148"]
+			id: "7200000000001005"
+			rewards: [{
+				id: "7200000000003005"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "7200000000002005"
+				item: { count: 1, id: "tfmg:air_intake" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"7200000000001005"
+				"7200000000001002"
+			]
+			id: "7200000000001006"
+			rewards: [{
+				id: "7200000000003006"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "7200000000002006"
+				item: { count: 1, id: "tfmg:blast_stove" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7EAA4599F869155E"]
+			id: "7200000000001007"
+			rewards: [{
+				count: 4
+				id: "7200000000003007"
+				item: {
+					count: 1
+					id: "minecraft:copper_ingot"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "7200000000002007"
+				item: { count: 1, id: "minecraft:copper_ingot" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 6.25d
+		}
+		{
+			dependencies: ["25CA12E6460FACBC"]
+			id: "7200000000001008"
+			rewards: [{
+				id: "7200000000003008"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "7200000000002008"
+				item: { count: 1, id: "kubejs:copper_hammer" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7200000000001008"]
+			id: "7200000000001009"
+			rewards: [{
+				id: "7200000000003009"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "7200000000002009"
+				item: { count: 1, id: "create:copper_sheet" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4F0601F522F6FA9B"]
+			id: "7200000000001010"
+			rewards: [{
+				id: "7200000000003010"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "7200000000002010"
+				item: { count: 1, id: "rubberworks:compressor" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 6.25d
+		}
+		{
+			id: "70D319F4D510EF7C"
+			rewards: [{
+				id: "070DFC558042E2EF"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "60D88BFD4EFFB762"
+				item: { count: 1, id: "tfmg:fireclay_ball" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["70D319F4D510EF7C"]
+			id: "7DDFAF9969A202F5"
+			rewards: [{
+				id: "31189348E354E0A0"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "46379FFFD4C1AE94"
+				item: { count: 1, id: "tfmg:fireproof_brick" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7DDFAF9969A202F5"]
+			id: "5816E62B56857ECD"
+			rewards: [{
+				count: 2
+				id: "78F9B3762725B2AF"
+				item: {
+					count: 1
+					id: "tfmg:fireproof_bricks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1AFF58FFCB966AB4"
+				item: { count: 1, id: "tfmg:fireproof_bricks" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"5816E62B56857ECD"
+				"7200000000001006"
+				"7200000000001004"
+				"7200000000001022"
+			]
+			id: "3B813EA21E56CE12"
+			rewards: [{
+				id: "771D2D0C27CA8EF6"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "3C881C0123672BD1"
+				item: { count: 1, id: "tfmg:blast_furnace_hatch" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3B813EA21E56CE12"]
+			id: "7EAA4599F869155E"
+			rewards: [{
+				id: "3D00AB0B3298CF47"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "00D6F16BCC370401"
+				item: { count: 1, id: "tfmg:casting_basin" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7200000000001001"]
+			id: "0DB0C64B561EF7B4"
+			rewards: [{
+				id: "5D60953DFD8C3AD8"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "2CFE69B835F01822"
+				item: { count: 1, id: "minecraft:raw_copper" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"25D34748A46CA0E5"
+				"5017B342BC94A436"
+			]
+			id: "36F2806D61DFDD9A"
+			rewards: [{
+				id: "79D7ADDEE5E009BF"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "7952E543E193C40C"
+				item: { count: 1, id: "kubejs:unrefined_copper_blend" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"15F3BC0C6957CD13"
+				"0DB0C64B561EF7B4"
+			]
+			id: "25D34748A46CA0E5"
+			rewards: [{
+				id: "151FF8DE0BFF3168"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "49525922690E2138"
+				item: { count: 1, id: "create:crushed_raw_copper" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["15F3BC0C6957CD13"]
+			id: "5017B342BC94A436"
+			rewards: [{
+				id: "27CC816C48EC4463"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "6CD8A24BE27EA891"
+				item: { count: 1, id: "kubejs:carbon_dust" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["19222CBBA1A865FD"]
+			id: "15F3BC0C6957CD13"
+			rewards: [{
+				id: "6F2D4C20E09EAC52"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "235F1343853CF276"
+				item: { count: 1, id: "create:millstone" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["36F2806D61DFDD9A"]
+			id: "25CA12E6460FACBC"
+			rewards: [{
+				id: "6C6AA2A000F85F09"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				count: 3L
+				id: "2FE8265AAB8308C8"
+				item: { count: 1, id: "create:copper_nugget" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7200000000001009"]
+			id: "6A801F5272DB0148"
+			rewards: [{
+				id: "74D9FA6BDFB0D41E"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "5E61B2AD5F78C443"
+				item: { count: 1, id: "create:fluid_pipe" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7200000000001007"]
+			id: "4F0601F522F6FA9B"
+			rewards: [{
+				id: "7DAC5D017FF10E42"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "2A75F868C36BD694"
+				item: { count: 1, id: "rubberworks:sapper" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 6.25d
+		}
+		{
+			dependencies: ["7200000000001010"]
+			id: "276282EDA1972B1C"
+			rewards: [{
+				id: "41D24CAA3DF9F0F0"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "40112262840D2326"
+				item: { count: 1, id: "rubberworks:rubber" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 6.25d
+		}
+		{
+			dependencies: [
+				"276282EDA1972B1C"
+				"7200000000001008"
+			]
+			id: "55E024A9F27CD19D"
+			rewards: [{
+				id: "38EADCF5AAE44881"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "4E6E3FB3827751EB"
+				item: { count: 1, id: "rubberworks:rubber_sheet" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7200000000001007"]
+			id: "7200000000001012"
+			rewards: [{
+				id: "7200000000003012"
+				type: "xp"
+				xp: 30
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "7200000000002012"
+				type: "custom"
+			}]
+			x: 6.0d
+			y: 6.25d
+		}
+		{
+			dependencies: ["276282EDA1972B1C"]
+			id: "7200000000001013"
+			rewards: [{
+				id: "7200000000003013"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "7200000000002013"
+				item: { count: 1, id: "skylandersmeteors:contraption_capsule" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 6.25d
+		}
+		{
+			dependencies: ["7200000000001001"]
+			id: "7200000000001014"
+			rewards: [{
+				id: "7200000000003014"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "7200000000002014"
+				item: { count: 1, id: "create:belt_connector" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7200000000001014"]
+			id: "7200000000001015"
+			rewards: [{
+				id: "7200000000003015"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "7200000000002015"
+				item: { count: 1, id: "create:andesite_funnel" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7200000000001014"]
+			id: "7200000000001016"
+			rewards: [{
+				id: "7200000000003016"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "7200000000002016"
+				item: { count: 1, id: "create:depot" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.75d
+		}
+		{
+			dependencies: ["7200000000001009"]
+			id: "7200000000001017"
+			rewards: [{
+				id: "7200000000003017"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "7200000000002017"
+				item: { count: 1, id: "create:fluid_tank" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7200000000001009"]
+			id: "7200000000001018"
+			rewards: [{
+				id: "7200000000003018"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "7200000000002018"
+				item: { count: 1, id: "create:transmitter" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7200000000001007"]
+			id: "7200000000001019"
+			rewards: [{
+				id: "7200000000003019"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "7200000000002019"
+				item: { count: 1, id: "coebetterfinder:radar_prospecteur" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7200000000001019"]
+			id: "7200000000001020"
+			rewards: [{
+				id: "7200000000003020"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "7200000000002020"
+				item: { count: 1, id: "createoreexcavation:drilling_machine" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7200000000001020"]
+			id: "7200000000001021"
+			rewards: [{
+				id: "7200000000003021"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "7200000000002021"
+				item: { count: 1, id: "kubejs:copper_drill" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5816E62B56857ECD"]
+			id: "7200000000001022"
+			rewards: [{
+				id: "7200000000003022"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "7200000000002022"
+				item: { count: 1, id: "tfmg:blast_furnace_output" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.5d
+		}
+	]
+}

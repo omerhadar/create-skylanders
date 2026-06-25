@@ -1,0 +1,79 @@
+{
+	id: "16916392878E9276"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{
+			count: 4
+			id: "08B9FD67D1F54BD0"
+			item: {
+				count: 1
+				id: "minecraft:oak_sapling"
+			}
+		}
+		{
+			count: 4
+			id: "758E59EF57D19BBB"
+			item: {
+				count: 1
+				id: "minecraft:spruce_sapling"
+			}
+		}
+		{
+			count: 4
+			id: "3D3B6420FA472154"
+			item: {
+				count: 1
+				id: "minecraft:birch_sapling"
+			}
+		}
+		{
+			count: 4
+			id: "1A8CBD9771E5F55B"
+			item: {
+				count: 1
+				id: "minecraft:jungle_sapling"
+			}
+		}
+		{
+			count: 4
+			id: "42F3315BD1169156"
+			item: {
+				count: 1
+				id: "minecraft:acacia_sapling"
+			}
+		}
+		{
+			count: 4
+			id: "6D911DB9AEA04656"
+			item: {
+				count: 1
+				id: "minecraft:dark_oak_sapling"
+			}
+		}
+		{
+			count: 4
+			id: "4672CF4739FACF93"
+			item: {
+				count: 1
+				id: "minecraft:cherry_sapling"
+			}
+		}
+		{
+			count: 4
+			id: "7D6DE7A997A0A238"
+			item: {
+				count: 1
+				id: "ecologics:walnut_sapling"
+			}
+		}
+		{
+			count: 4
+			id: "31176248B57FE4C0"
+			item: {
+				count: 1
+				id: "ecologics:coconut_seedling"
+			}
+		}
+	]
+}

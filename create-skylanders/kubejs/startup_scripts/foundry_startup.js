@@ -101,4 +101,29 @@ StartupEvents.registry('fluid', event => {
         .stillTexture('minecraft:block/lava_still')
         .flowingTexture('minecraft:block/lava_flow')
         .tint(0x5BC0B0)
+
+    // Sweet Syrup — a bee-free stand-in for honey, boiled from sugar water. It exists only
+    // to drive the limestone generator (see the FluidEvents.interact below): a renewable,
+    // non-bee path to limestone → limesand → steel flux. Water textures tinted amber so it
+    // reads as syrup and flows like a normal fluid for the generator.
+    event.create('sweet_syrup')
+        .displayName('Sweet Syrup')
+        .stillTexture('minecraft:block/water_still')
+        .flowingTexture('minecraft:block/water_flow')
+        .tint(0xE0A030)
+})
+
+// Limestone generator for Sweet Syrup — works exactly like the lava+honey one, but bee-free.
+// KubeJS can't register fluid interactions on its own; the `fluidjs` mod adds FluidEvents for
+// it. When flowing/source Lava meets flowing Sweet Syrup, the lava turns into create:limestone
+// (the same block Create's honey interaction produces). Lava is the transformed side (it gets
+// consumed into limestone), syrup is the modifier that stays — exactly like water in a cobble
+// generator. So: lava source + syrup source side by side -> limestone, refed continuously.
+FluidEvents.interact(event => {
+    event.createForBlock(
+        Fluid.of('minecraft:lava', 1000),
+        Fluid.of('kubejs:sweet_syrup', 1000),
+        'create:limestone',
+        'create:limestone'
+    )
 })

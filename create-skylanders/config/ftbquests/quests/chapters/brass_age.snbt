@@ -1,0 +1,339 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "brass_age"
+	group: ""
+	icon: {
+		id: "create:brass_ingot"
+	}
+	id: "7700000000000001"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7300000000001015"]
+			id: "7700000000001001"
+			rewards: [{
+				id: "7700000000003001"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "7700000000002001"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["7700000000001001"]
+			id: "7700000000001002"
+			rewards: [{
+				id: "7700000000003002"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "7700000000002002"
+				item: { count: 1, id: "create:blaze_burner" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7700000000001002"]
+			id: "7700000000001003"
+			rewards: [{
+				count: 4
+				id: "7700000000003003"
+				item: {
+					count: 1
+					id: "create:brass_ingot"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "7700000000002003"
+				item: { count: 1, id: "create:brass_ingot" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7700000000001003"]
+			id: "7700000000001005"
+			rewards: [{
+				id: "7700000000003005"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "7700000000002005"
+				item: { count: 1, id: "create:brass_casing" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7700000000001001"]
+			id: "7700000000001006"
+			rewards: [{
+				id: "7700000000003006"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "7700000000002006"
+				item: { count: 1, id: "create:rose_quartz" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["7700000000001001"]
+			id: "7700000000001010"
+			rewards: [{
+				id: "7700000000003010"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "7700000000002010"
+				item: { count: 1, id: "create:sand_paper" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -0.75d
+		}
+		{
+			dependencies: [
+				"7700000000001006"
+				"7700000000001010"
+			]
+			id: "7700000000001007"
+			rewards: [{
+				id: "7700000000003007"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "7700000000002007"
+				item: { count: 1, id: "create:polished_rose_quartz" }
+				type: "item"
+			}]
+			x: 3.75d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7700000000001007"]
+			id: "7700000000001008"
+			rewards: [{
+				id: "7700000000003008"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "7700000000002008"
+				item: { count: 1, id: "create:electron_tube" }
+				type: "item"
+			}]
+			x: 3.75d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"7700000000001005"
+				"7700000000001008"
+			]
+			id: "7700000000001012"
+			rewards: [{
+				id: "7700000000003012"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "7700000000002012"
+				item: { count: 1, id: "create:mechanical_crafter" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3BCADC3E022C5C68"]
+			id: "7700000000001013"
+			rewards: [{
+				id: "7700000000003013"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "7700000000002013"
+				item: { count: 1, id: "create:precision_mechanism" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["7700000000001013"]
+			id: "7700000000001014"
+			rewards: [{
+				id: "7700000000003014"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "7700000000002014"
+				item: { count: 1, id: "simulated:navigation_table" }
+				type: "item"
+			}]
+			x: 0.25d
+			y: 7.5d
+		}
+		{
+			dependencies: ["7700000000001012"]
+			id: "7700000000001015"
+			rewards: [{
+				id: "7700000000003015"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "7700000000002015"
+				item: { count: 1, id: "simulated:docking_connector" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["7700000000001003"]
+			id: "7300000000001016"
+			rewards: [{
+				id: "7300000000003016"
+				type: "xp"
+				xp: 35
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "7300000000002016"
+				type: "custom"
+			}]
+			x: -3.375d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"7700000000001015"
+				"7700000000001014"
+			]
+			id: "7700000000001016"
+			rewards: [{
+				id: "7700000000003016"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "7700000000002016"
+				item: { count: 1, id: "skylandersmeteors:station" }
+				type: "item"
+			}]
+			x: 1.25d
+			y: 8.75d
+		}
+		{
+			dependencies: ["7700000000001016"]
+			id: "7700000000001017"
+			rewards: [{
+				id: "7700000000003017"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "7700000000002017"
+				item: { count: 1, id: "skylandersmeteors:route_card" }
+				type: "item"
+			}]
+			x: 1.25d
+			y: 10.25d
+		}
+		{
+			dependencies: ["7700000000001017"]
+			id: "7700000000001018"
+			rewards: [{
+				id: "7700000000003018"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "7700000000002018"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 10.25d
+		}
+		{
+			dependencies: ["7700000000001012"]
+			id: "7700000000001019"
+			rewards: [{
+				id: "7700000000003019"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				count: 2L
+				id: "7700000000002019"
+				item: { count: 1, id: "create:crushing_wheel" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7700000000001013"]
+			id: "7700000000001020"
+			rewards: [{
+				id: "7700000000003020"
+				type: "xp"
+				xp: 20
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "7700000000002020"
+				item: { count: 1, id: "create:factory_gauge" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["7700000000001003"]
+			id: "3BCADC3E022C5C68"
+			rewards: [{
+				id: "423E71DE261CE732"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "7FCE173BE35EE2D9"
+				item: { count: 1, id: "create:brass_sheet" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.5d
+		}
+	]
+}

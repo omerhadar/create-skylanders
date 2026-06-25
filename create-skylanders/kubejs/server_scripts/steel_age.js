@@ -44,12 +44,15 @@ function castIngot(event, id, fluid, ingotId) {
 
 ServerEvents.recipes(function (event) {
     // ──────────────────────────────────────────────────────────
-    // STEEL — already gated; arc furnace bypass also closed.
+    // STEEL — already gated.
+    // The arc furnace (tfmg:vat_machine_recipe/arc_furnace_steel) is deliberately
+    // LEFT INTACT: it needs a steel chemical vat + graphite electrodes + electric
+    // power, so it self-gates behind the Electrical Age and serves as the
+    // efficient mass-production steel route there (Advanced IBF = bootstrap).
     // ──────────────────────────────────────────────────────────
     event.remove({ id: 'tfmg:industrial_blasting/steel' });
     event.remove({ id: 'tfmg:industrial_blasting/steel_from_dust' });
     event.remove({ id: 'tfmg:industrial_blasting/steel_from_raw_iron' });
-    event.remove({ id: 'tfmg:vat_machine_recipe/arc_furnace_steel' });
 
     advancedBlast(event, 'kubejs:age5/advanced_blasting_steel',
         [{ item: 'create:crushed_raw_iron' }, { tag: 'tfmg:flux' }],
@@ -138,4 +141,33 @@ ServerEvents.recipes(function (event) {
         [{ item: 'minecraft:quartz' }],
         [moltenResult('tfmg:liquid_silicon', 40)],
         5, 5);
+
+    // ──────────────────────────────────────────────────────────
+    // SWEET SYRUP — bee-free flux bootstrap.
+    // Steel needs limesand (the only #tfmg:flux), limesand is crushed from limestone, and the
+    // only sky-island limestone source is the lava+honey generator — bee-gated. Sweet Syrup is
+    // a honey stand-in boiled from sugar water that drives the SAME generator: its lava
+    // interaction (lava + syrup -> limestone) is registered in foundry_startup.js through the
+    // fluidjs mod, so the whole steel chain no longer hinges on finding a bee nest. One bucket
+    // of syrup sets up a permanent limestone generator.
+    // ──────────────────────────────────────────────────────────
+    event.recipes.create.mixing(
+        Fluid.of('kubejs:sweet_syrup', 250),
+        [
+            'minecraft:sugar',
+            'minecraft:sugar',
+            'minecraft:sugar',
+            'minecraft:sugar',
+            Fluid.of('minecraft:water', 1000)
+        ]
+    ).heated().id('kubejs:age5/sweet_syrup_from_sugar');
+
+    // Bee-free honey bottle from sugar too, so the edible/poison-curing honey form doesn't
+    // need bees either (independent of the syrup generator above).
+    event.shapeless('minecraft:honey_bottle', [
+        'minecraft:sugar',
+        'minecraft:sugar',
+        'minecraft:sugar',
+        'minecraft:glass_bottle'
+    ]).id('kubejs:age5/honey_bottle_from_sugar');
 });

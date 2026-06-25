@@ -38,6 +38,10 @@ ServerEvents.recipes(function (event) {
     event.remove({ id: 'create:pressing/copper_ingot' });
 
     // ── Millstone: fuels and dusts ──
+    // Raw copper milling — crushing wheels don't exist yet at this tier, the
+    // millstone has to carry ore processing until the iron age.
+    event.recipes.create.milling(['create:crushed_raw_copper'], 'minecraft:raw_copper')
+        .id('kubejs:age2/milling_raw_copper');
     event.recipes.create.milling(['kubejs:carbon_dust'], 'minecraft:coal')
         .id('kubejs:age2/milling_coal_to_carbon');
     event.recipes.create.milling(['kubejs:carbon_dust'], 'minecraft:charcoal')
@@ -82,14 +86,15 @@ ServerEvents.recipes(function (event) {
         F: 'tfmg:fireproof_bricks'
     }).id('kubejs:age2/blast_stove');
 
-    // Coke oven: produces creosote and coal coke for the IBF + blast stove
+    // Coke oven: produces creosote and coal coke for the IBF + blast stove.
+    // Smooth stone body — iron is a later age, the oven can't require it.
     event.remove({ id: 'tfmg:crafting/materials/coke_oven' });
     event.shaped('tfmg:coke_oven', [
         'III',
         'IFI',
         'PCP'
     ], {
-        I: 'minecraft:iron_ingot',
+        I: 'minecraft:smooth_stone',
         F: 'tfmg:fireproof_bricks',
         P: 'create:fluid_pipe',
         C: 'create:copper_sheet'
@@ -127,6 +132,57 @@ ServerEvents.recipes(function (event) {
         '#forge:hammers'
     ]).damageIngredient('kubejs:copper_hammer', 1)
       .id('kubejs:age2/copper_sheet_hammer');
+
+    // Rubber sheets by hammer too — the press is an iron-age machine, so the
+    // hammer carries sheet-making for the whole copper age.
+    event.shapeless('rubberworks:rubber_sheet', [
+        'rubberworks:rubber',
+        '#forge:hammers'
+    ]).damageIngredient('kubejs:copper_hammer', 1)
+      .id('kubejs:age2/rubber_sheet_hammer');
+
+    // Golden sheets by hammer — gold is soft enough to work by hand. The press
+    // path stays as the automated option; the hammer's durability is the tax.
+    event.shapeless('create:golden_sheet', [
+        '2x minecraft:gold_ingot',
+        '#forge:hammers'
+    ]).damageIngredient('kubejs:copper_hammer', 1)
+      .id('kubejs:age2/golden_sheet_hammer');
+
+    // Contraption capsule (skylandersmeteors): pack a contraption into an item
+    // for airship transport — copper-age tech so logistics start early.
+    event.shaped('skylandersmeteors:contraption_capsule', [
+        ' C ',
+        'GRG',
+        ' C '
+    ], {
+        C: 'create:copper_sheet',
+        G: 'minecraft:glass',
+        R: 'rubberworks:rubber'
+    }).id('kubejs:age2/contraption_capsule');
+
+    // Bucket: vanilla needs 3 iron ingots (age 3), but fluid handling starts here
+    // (blast stove, molten copper, basin work). Copper-sheet bucket = 6 ingots
+    // of copper plus hammer wear — pricier per ingot than iron will be, on purpose.
+    event.shaped('minecraft:bucket', [
+        'C C',
+        ' C '
+    ], {
+        C: 'create:copper_sheet'
+    }).id('kubejs:age2/copper_bucket');
+
+    // Andesite propeller: the default recipe chains through create:propeller
+    // (4 iron plates — age 3, removed conversions in zinc_age.js). Copper-age
+    // airship thrust upgrade for the 3500 push: copper sheets around alloy,
+    // mirroring the wooden propeller's planks-around-zinc shape.
+    event.shaped('aeronautics:andesite_propeller', [
+        ' C ',
+        'CAC',
+        ' C '
+    ], {
+        C: 'create:copper_sheet',
+        A: 'create:andesite_alloy'
+    }).id('kubejs:age2/andesite_propeller');
 
     // ── Rubberworks compressor: gated behind copper block + andesite alloy ──
     event.remove({ id: 'rubberworks:crafting/compressor' });

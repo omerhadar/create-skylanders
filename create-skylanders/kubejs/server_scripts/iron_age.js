@@ -81,6 +81,14 @@ ServerEvents.recipes(event => {
         'create:crushed_raw_iron'
     ).id('kubejs:age3/washing_crushed_iron');
 
+    // Gravel washing drops iron nuggets by default — a free-iron leak around the
+    // IBF gate. Re-add it flint-only.
+    event.remove({ id: 'create:splashing/gravel' });
+    event.recipes.create.splashing(
+        [CreateItem.of('minecraft:flint', 0.25)],
+        'minecraft:gravel'
+    ).id('kubejs:age3/washing_gravel');
+
     // Sintering via vanilla smoker — create.smoking() doesn't work in 1.21.1
     event.custom({
         type: 'minecraft:smoking',

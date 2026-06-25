@@ -28,7 +28,7 @@
     "floor": {
       "type": "minecraft:simple_state_provider",
       "state": {
-        "Name": "kubejs:iron_deposit"
+        "Name": "minecraft:calcite"
       }
     },
     "radius": {

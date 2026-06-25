@@ -1,0 +1,8 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#minecraft:is_nether",
+  "features": [
+    "skylanders_ores:sulfur_meteor_nether"
+  ],
+  "step": "underground_ores"
+}

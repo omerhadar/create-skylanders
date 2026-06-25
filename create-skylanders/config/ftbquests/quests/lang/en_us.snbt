@@ -1,0 +1,844 @@
+{
+	chapter.7100000000000001.title: "Zinc Age"
+	chapter.7200000000000001.title: "Copper Age"
+	chapter.7300000000000001.title: "Iron Age"
+	chapter.7400000000000001.title: "Diamond Age"
+	chapter.7500000000000001.title: "Advanced Metals"
+	chapter.7600000000000001.title: "Dragon Age"
+	chapter.7700000000000001.title: "Brass Age"
+	chapter.7800000000000001.title: "Electrical Age"
+	quest.0DB0C64B561EF7B4.quest_desc: [
+		"You've reached the copper band — mine your first &eraw copper&r."
+		""
+		"&7It feeds both routes below: the quick-and-dirty bootstrap blend, and the real Industrial Blast Furnace line."
+	]
+	quest.0DB0C64B561EF7B4.title: "Raw Copper"
+	quest.15536D541830526D.quest_desc: [
+		"&aThe renewable payoff.&r"
+		""
+		"&7With the Diamond Drill built, a Drilling Machine on a diamond vein pulls diamonds from the void forever — slow, but it never runs dry. Run several in parallel for real throughput."
+		""
+		"&7Check this off once a drill is producing diamonds on its own."
+	]
+	quest.15536D541830526D.title: "Automated Diamond Mining"
+	quest.15F3BC0C6957CD13.quest_desc: ["A low-tech grinder — crush ore and fuel with nothing but rotation from the side or bottom. Your first processing machine out on the frontier."]
+	quest.15F3BC0C6957CD13.title: "The Millstone"
+	quest.1F16307E80E7F8C4.quest_desc: [
+		"&6Ore is gated by distance — so fly to it.&r"
+		""
+		"&7Copper doesn't form near spawn; it only generates &ebeyond ~2000 blocks&r out (any direction), with meteors farther still. Each age's metal sits in its own band, so progress means an &oexpedition&r."
+		""
+		"&7Board the airship you just built and strike out from spawn. This quest completes itself once you've traveled 2000 blocks, opening the Copper Age."
+	]
+	quest.1F16307E80E7F8C4.title: "The Copper Frontier"
+	quest.25CA12E6460FACBC.quest_desc: [
+		"&7Smelt the blend for &c3 copper nuggets&r — a third of an ingot, agonisingly slow."
+		""
+		"&7This is the &oBEFORE&r. The IBF's Molten Copper is the &oAFTER&r. You need a little copper now to build the foundry that makes copper properly."
+	]
+	quest.25CA12E6460FACBC.title: "First Copper"
+	quest.25D34748A46CA0E5.quest_desc: ["Mill raw copper into &eCrushed Copper&r — the shared input for both the bootstrap blend and the Industrial Blast Furnace."]
+	quest.25D34748A46CA0E5.title: "Crushed Copper"
+	quest.276282EDA1972B1C.quest_desc: ["Process latex in the Compressor into &eRubber&r — a flexible material for seals, belts, and the late-game diamond line."]
+	quest.276282EDA1972B1C.title: "Rubber"
+	quest.301EE510A158B57F.quest_desc: ["Everything runs on &erotation&r — Stress Units (SU) for capacity, RPM for speed."]
+	quest.301EE510A158B57F.quest_subtitle: "Its going round in circles"
+	quest.36F2806D61DFDD9A.quest_desc: [
+		"&eThe deliberately bad way to make copper.&r"
+		""
+		"&7Crushed copper + carbon dust, ready to smelt. It exists to give you a trickle of copper before the foundry is online — and to make the efficient IBF route feel worth building."
+	]
+	quest.36F2806D61DFDD9A.title: "Unrefined Copper Blend"
+	quest.3B813EA21E56CE12.quest_desc: [
+		"&6Build the foundry.&r"
+		""
+		"&7A multiblock of fireproof-brick walls with a &eHatch&r (I/O port) and an &eOutput&r block. Fed by coke and hot air (Intake + Stove), it melts crushed ore into molten metal."
+		""
+		"&7This one machine carries you from copper all the way to the late-game metals — its advanced cousin is the only path to steel."
+	]
+	quest.3B813EA21E56CE12.title: "Industrial Blast Furnace"
+	quest.3E90650D1DCDFACF.title: "The Better Iron!"
+	quest.4E0553FCE765414B.title: "auto cannon assembly"
+	quest.4F0601F522F6FA9B.quest_desc: ["A Rubberworks tool for harvesting &elatex&r — the raw sap that becomes rubber."]
+	quest.4F0601F522F6FA9B.title: "Sapper"
+	quest.5017B342BC94A436.quest_desc: ["Mill coal or charcoal into Carbon Dust — the reductant for the bootstrap copper blend."]
+	quest.5017B342BC94A436.title: "Carbon Dust"
+	quest.55E024A9F27CD19D.quest_desc: ["Press Rubber into sheets — the refined form used in tougher machine components."]
+	quest.55E024A9F27CD19D.title: "Rubber Sheet"
+	quest.5816E62B56857ECD.quest_desc: [
+		"&6The key to industrial metalworking.&r"
+		""
+		"&7Four bricks make a Fireproof Bricks block — the body of the &eIndustrial Blast Furnace&r, Casting Basin, Blast Stove and Coke Oven. Vanilla copper/iron smelting is gone in this pack, so this foundry is the &oonly&r way forward."
+	]
+	quest.5816E62B56857ECD.title: "Fireproof Bricks"
+	quest.6365C3EFB02C7B50.quest_desc: [
+		"&6The nether-grade head.&r"
+		""
+		"&7The &eDiamond Drill&r bites &eiron&r veins back home — and, taken to the Nether, the &esulfur, quartz and glowstone&r veins down there. Diamonds themselves take the Netherite Drill."
+	]
+	quest.6365C3EFB02C7B50.title: "Diamond Drill"
+	quest.6A801F5272DB0148.quest_desc: ["Carries fluids — and the hot air the IBF runs on — between machines. The Coke Oven, Air Intake and Blast Stove all need piping."]
+	quest.6A801F5272DB0148.title: "Fluid Pipe"
+	quest.6EF1C3459473DE9E.quest_desc: ["Build it like a cobblestone generator, but with &eSweet Syrup&r in place of water: set flowing Lava and flowing Syrup so the two streams meet side by side, and the lava turns into &eLimestone&r. Bring a bucket of each to pour."]
+	quest.6EF1C3459473DE9E.title: "Limestone Generator"
+	quest.70D319F4D510EF7C.quest_desc: [
+		"&6The foundation of the foundry.&r"
+		""
+		"&7Mix &eclay + 2 sand + charcoal&r (by hand or in a Mixer) into Fireclay balls — the first step toward the heat-proof bricks the whole TFMG foundry is built from."
+	]
+	quest.70D319F4D510EF7C.title: "Fireclay"
+	quest.7100000000001001.quest_desc: [
+		"The starting material for almost every Create machine."
+		""
+		"&7Made from &eandesite + zinc nuggets&r (zinc is your Age-1 metal) — by hand or in a mixer. Everything below begins here."
+	]
+	quest.7100000000001001.title: "Andesite Alloy"
+	quest.7100000000001002.quest_desc: ["A low-tech grinder — drop in ores or fuel and it crushes them. Just needs rotation from the side or bottom."]
+	quest.7100000000001002.title: "The Millstone"
+	quest.7100000000001003.quest_desc: ["Combines items (and fluids) over a Basin. Many recipes are mixer-based; a heat source enables heated mixing later."]
+	quest.7100000000001003.title: "Mechanical Mixer"
+	quest.7100000000001004.quest_desc: ["The work surface under a Mixer or Press. Outputs drop out the side it faces, or pipe fluids in and out."]
+	quest.7100000000001004.title: "The Basin"
+	quest.7100000000001005.quest_desc: ["Cuts wood and stone, and fells whole trees pointed upward. Zinc-gated here instead of needing iron."]
+	quest.7100000000001005.title: "Mechanical Saw"
+	quest.7100000000001006.quest_desc: [
+		"&aHow a Create tree farm works:&r"
+		""
+		"&7Point a fixed &eMechanical Saw&r up at the base of a tree — it slices the trunk and the whole tree drops as logs. Plant a sapling in front (a Deployer with bonemeal speeds regrowth) and it re-fells each cycle."
+		""
+		"&7Belt logs to a sideways Saw for planks. Check this off once trees auto-fell."
+	]
+	quest.7100000000001006.title: "Farm: Trees"
+	quest.7100000000001007.quest_desc: ["Mounted on a moving contraption, it shears mature crops as it passes. Zinc-gated here."]
+	quest.7100000000001007.title: "Mechanical Harvester"
+	quest.7100000000001008.quest_desc: [
+		"&aHow a Create crop farm works:&r"
+		""
+		"&7Attach &eMechanical Harvesters&r to a contraption (a bearing arm, gantry, or cart on rails) at crop height. Sweeping the field harvests anything grown and leaves the stalk to regrow."
+		""
+		"&7Replant from the seed drops or a Deployer. Check this off once a field auto-harvests."
+	]
+	quest.7100000000001008.title: "Farm: Crops"
+	quest.7100000000001009.quest_desc: ["An Aeronautics propeller, re-gated to zinc. Spun by rotation, it generates &eThrust&r — the push that moves an airship."]
+	quest.7100000000001009.title: "Wooden Propeller"
+	quest.7100000000001010.quest_desc: [
+		"&6The gateway out of the Zinc Age.&r"
+		""
+		"&7Mix &eclay + 2 sand + charcoal&r (by hand or in a Mixer) into Fireclay balls — the first step toward the heat-proof bricks the whole TFMG foundry is built from."
+	]
+	quest.7100000000001010.title: "Fireclay"
+	quest.7100000000001011.quest_desc: ["Smelt a Fireclay ball into a single Fireproof Brick. Automate with a powered furnace or a fan over fire/lava."]
+	quest.7100000000001011.title: "Fireproof Brick"
+	quest.7100000000001012.quest_desc: [
+		"&6The key to industrial metalworking.&r"
+		""
+		"&7Four bricks make a Fireproof Bricks block — the body of the &eIndustrial Blast Furnace&r, Casting Basin, and Blast Stove. Vanilla iron/copper smelting is gone in this pack, so this foundry is the &oonly&r way forward."
+	]
+	quest.7100000000001012.title: "Fireproof Bricks"
+	quest.7100000000001013.quest_desc: [
+		"&6Build the foundry.&r"
+		""
+		"&7A multiblock of fireproof-brick walls with a &eHatch&r (I/O port) and an &eOutput&r block. It melts ores into molten metal once it has hot air (you wire that up in the Copper Age). This one machine carries you to the late-game metals."
+	]
+	quest.7100000000001013.title: "Industrial Blast Furnace"
+	quest.7100000000001014.quest_desc: ["Pour molten metal in to solidify it into ingots. The IBF melts, the basin casts."]
+	quest.7100000000001014.title: "Casting Basin"
+	quest.7100000000001015.quest_desc: ["Mill coal or charcoal into Carbon Dust — the reductant for the bootstrap copper blend below."]
+	quest.7100000000001015.title: "Carbon Dust"
+	quest.7100000000001016.quest_desc: [
+		"&eThe deliberately bad way to make copper.&r"
+		""
+		"&7Crushed copper + carbon dust, then smelt — only &c3 nuggets&r (a third of an ingot) per run. It gives you a trickle before the foundry is online, and makes the efficient IBF route worth building."
+	]
+	quest.7100000000001016.title: "Unrefined Copper Blend"
+	quest.7100000000001017.quest_desc: ["Smelt the blend for your first copper nuggets. Copper is your bridge metal — you need it to wire up the IBF, which then makes copper properly."]
+	quest.7100000000001017.title: "First Copper"
+	quest.7100000000001018.quest_desc: ["&7Shafts carry rotation straight; cogwheels turn corners and change speed. Craft a cogwheel, then build a power source below."]
+	quest.7100000000001018.title: "Rotational Power"
+	quest.7100000000001019.quest_desc: ["The simplest source — right-click and hold to spin it. Only runs while you hold it, so it's for testing, not automation."]
+	quest.7100000000001019.title: "Hand Crank"
+	quest.7100000000001020.quest_desc: [
+		"Your first real power source. Spins when flowing water runs along its blades."
+		""
+		"&7Put water flows on its side (a 1-block waterfall beside it works). All flows must push the &osame&r way or they cancel. Quiet, cheap, endless."
+	]
+	quest.7100000000001020.title: "Water Wheel"
+	quest.7100000000001021.quest_desc: ["More SU and torque from one source. Fills a 3x3 footprint — use it when one small wheel can't carry your line."]
+	quest.7100000000001021.title: "Large Water Wheel"
+	quest.7100000000001022.quest_desc: [
+		"Free power from the sky. Attach &eWindmill Sails&r (or any sails) to a &eMechanical Bearing&r, then activate it to assemble and spin."
+		""
+		"&7More sail area = more speed (up to a cap). Give it open air. Perfect for floating islands."
+	]
+	quest.7100000000001022.title: "Windmill"
+	quest.7100000000001023.quest_desc: [
+		"Turns rotation into a stream of air. Blow it through &7water&r to wash, &7fire/lava&r to smoke/blast, or nothing to push items."
+		""
+		"&7You'll wash crushed ores and smoke mixes constantly with this."
+	]
+	quest.7100000000001023.title: "Encased Fan"
+	quest.7100000000001024.quest_desc: [
+		"&bAirship part 1 of 3.&r"
+		""
+		"&7The Hot Air Burner fills a balloon with hot air to generate &elift&r. Powered with redstone, it gradually fills the Envelope above it; more redstone = more output."
+	]
+	quest.7100000000001024.title: "Hot Air Burner"
+	quest.7100000000001025.quest_desc: [
+		"&bAirship part 2 of 3.&r"
+		""
+		"&7Envelope blocks enclose an airtight volume — the &eballoon&r. Hot air from the Burner fills it from the top down and lifts everything attached. Shafts can be encased with envelope to stay airtight."
+	]
+	quest.7100000000001025.title: "Hot Air Envelope"
+	quest.7100000000001026.quest_desc: [
+		"&bAirship part 3 of 3 — assembly.&r"
+		""
+		"&7Mount propellers on a &ePropeller Bearing&r to turn rotation into steerable thrust. Balloon for lift, propellers for drive: you have an airship."
+		""
+		"&7Build one and set course for the &6Copper Frontier&r in the next chapter."
+	]
+	quest.7100000000001026.title: "Propeller Bearing"
+	quest.7100000000001027.quest_desc: ["Your first automation hand, re-tiered to the Zinc Age — built from a shaft, an andesite casing and a Zinc Hand. A Deployer plants saplings and applies bonemeal, turning a Mechanical Saw into a self-replanting tree farm."]
+	quest.7100000000001027.title: "Deployer"
+	quest.7200000000001001.quest_desc: [
+		"&6Ore is gated by distance — so fly to it.&r"
+		""
+		"&7Copper doesn't form near spawn; it only generates &ebeyond ~2000 blocks&r out (any direction), with meteors farther still. Each age's metal sits in its own band, so progress means an &oexpedition&r."
+		""
+		"&7Board the airship you just built and strike out from spawn. This quest completes itself once you've traveled 2000 blocks, opening the Copper Age."
+	]
+	quest.7200000000001001.title: "The Copper Frontier"
+	quest.7200000000001002.quest_desc: [
+		"&6Fuel for the foundry.&r"
+		""
+		"&7Built from iron, fireproof bricks, fluid pipe and a copper sheet. It bakes coal into &eCoal Coke&r (and creosote) — the hot, clean fuel the Industrial Blast Furnace needs."
+	]
+	quest.7200000000001002.title: "Coke Oven"
+	quest.7200000000001003.quest_desc: ["The Coke Oven's output. Burns hotter and longer than coal — the IBF's preferred fuel."]
+	quest.7200000000001003.title: "Coal Coke"
+	quest.7200000000001004.quest_desc: ["Mill Coal Coke into Coke Dust — a finer IBF fuel/input you'll lean on in the iron line later."]
+	quest.7200000000001004.title: "Coke Dust"
+	quest.7200000000001005.quest_desc: [
+		"&6Breathing for the furnace.&r"
+		""
+		"&7Spins a &ewooden propeller&r to draw air. Paired with the Blast Stove, it feeds the hot air the IBF needs. Built from shaft + propeller + cogwheels + copper sheet + andesite bars."
+	]
+	quest.7200000000001005.title: "Air Intake"
+	quest.7200000000001006.quest_desc: [
+		"&6Heat for the air.&r"
+		""
+		"&7Warms the intake air before it reaches the furnace. Built from fluid pipe + fluid tank + fireproof bricks. Intake + Stove + Coke = a working IBF."
+	]
+	quest.7200000000001006.title: "Blast Stove"
+	quest.7200000000001007.quest_desc: [
+		"&6The payoff: copper done right.&r"
+		""
+		"&7Fed by coke + hot air, the IBF melts &ecrushed raw copper&r into &bMolten Copper&r (144 mb = a full ingot). Pour it into the Casting Basin for a real &eCopper Ingot&r — vs the bootstrap blend's 3 nuggets. This is why you built the foundry."
+	]
+	quest.7200000000001007.title: "Molten Copper"
+	quest.7200000000001008.quest_desc: ["A durable tool (128 uses) from 6 copper ingots + a stick. The only way to make copper sheets in this pack."]
+	quest.7200000000001008.title: "Copper Hammer"
+	quest.7200000000001009.quest_desc: [
+		"&7Hammer &e2 copper ingots&r into a Copper Sheet — the hammer loses 1 durability each time. The vanilla press shortcut is removed, so this hand-hammered path is mandatory."
+		""
+		"&7Sheets feed the Air Intake, Coke Oven, and later-age casings."
+	]
+	quest.7200000000001009.title: "Copper Sheets"
+	quest.7200000000001010.quest_desc: ["From a shaft + andesite alloy block + copper block. Compresses materials and fluids — you'll need it for the late-game diamond line."]
+	quest.7200000000001010.title: "Rubberworks Compressor"
+	quest.7200000000001011.quest_desc: [
+		"&bThe Copper-age power upgrade.&r"
+		""
+		"&7A &eSteam Engine&r on a boiler (a Fluid Tank of water heated underneath) puts out far more SU than water wheels — enough to run a real factory. The boiler needs a strong heat source: a &eBlaze Burner&r, your first reason to visit the Nether."
+	]
+	quest.7200000000001011.title: "Steam Power"
+	quest.7200000000001012.quest_desc: [
+		"&6Copper mastered. The iron lands call.&r"
+		""
+		"&7Iron forms even farther out — &ebeyond ~3500 blocks&r from spawn. Your airship already flies; provision it and push past the copper band into iron country."
+		""
+		"&7This quest completes itself once you've traveled 3500 blocks from spawn, opening the Iron Age."
+	]
+	quest.7200000000001012.title: "The Iron Frontier"
+	quest.7200000000001013.quest_desc: ["&7Copper sheets, glass and rubber. Pack a whole &econtraption&r into the capsule, fly it out on your airship, and unpack it at the far island — how a factory travels between bands."]
+	quest.7200000000001013.title: "Contraption Capsule"
+	quest.7200000000001014.quest_desc: [
+		"&6Items that move themselves.&r"
+		""
+		"&7Woven from dried kelp and stretched between two shafts, a belt carries &eitems and rotation&r at once — the spine of every automated line from here to the dragon."
+	]
+	quest.7200000000001014.title: "Mechanical Belts"
+	quest.7200000000001015.quest_desc: ["&7Andesite alloy + kelp. On a belt or depot it &epicks items up&r; mounted on an inventory it &edrops them in&r. Funnels are how machines feed themselves — your IBF line shouldn't need your hands."]
+	quest.7200000000001015.title: "Andesite Funnel"
+	quest.7200000000001016.quest_desc: ["&7A belt stop without the belt: holds a stack out in the open for fans, presses and deployers to work on. Ring one with funnels and you've built a processing corner in two blocks."]
+	quest.7200000000001016.title: "Depot"
+	quest.7200000000001017.quest_desc: ["&7Copper plates around a wooden barrel. Buffers &e8000 mb&r of any fluid — the lung your blast stove, molten copper and basin work have all quietly needed. Stack them to grow the tank."]
+	quest.7200000000001017.title: "Fluid Tank"
+	quest.7200000000001018.quest_desc: [
+		"&6The seed of a logistics network.&r"
+		""
+		"&7A lightning rod, copper plates and redstone. On its own it just relays a signal — but paired with an Item Vault next age it becomes a &eStock Link&r, the start of a warehouse that answers requests. Craft one now; you'll wire it up in the Iron Age."
+	]
+	quest.7200000000001018.title: "Transmitter"
+	quest.7200000000001019.quest_desc: ["&7Hold it and right-click to scan a few chunks for hidden &eore veins&r — the infinite seams a Drilling Machine taps. Find one before you build."]
+	quest.7200000000001019.title: "Ore Vein Finder"
+	quest.7200000000001020.quest_desc: [
+		"&6Renewable ore, at last.&r"
+		""
+		"&7A multiblock that taps the infinite &eore vein&r in its chunk — slot a drill, feed it &ewater&r and a little rotation, and it pulls ore from the void below. No mining, no edge of the band; the islands never run dry."
+	]
+	quest.7200000000001020.title: "Drilling Machine"
+	quest.7200000000001021.quest_desc: [
+		"&6Tier 1 — the first drill head.&r"
+		""
+		"&7Copper sheet, andesite and a shaft. The &eCopper Drill&r works &ezinc&r veins. Deliberately slow — one drill is a trickle, so build several. Note the pattern: each metal takes the &enext&r drill up, so to drill copper itself you'll want the Iron Drill next age."
+	]
+	quest.7200000000001021.title: "Copper Drill"
+	quest.7200000000001022.quest_desc: ["The output port of the Industrial Blast Furnace multiblock — the molten metal and items come out here. The IBF needs BOTH this Output and the Hatch set into its fireproof-brick shell to run."]
+	quest.7200000000001022.title: "Blast Furnace Output"
+	quest.7300000000001001.quest_desc: [
+		"You've reached the iron band — mine your first &eraw iron&r."
+		""
+		"&7Vanilla iron smelting is gone in this pack. From here, every iron ingot flows through the Industrial Blast Furnace — and there are two ways to feed it."
+	]
+	quest.7300000000001001.title: "Raw Iron"
+	quest.7300000000001002.quest_desc: ["Mill raw iron into Crushed Raw Iron — the shared first step of both the bootstrap and the full IBF line."]
+	quest.7300000000001002.title: "Crushed Raw Iron"
+	quest.7300000000001003.quest_desc: [
+		"Turns rotation into a stream of air. Blow it through &7water&r to &ewash&r crushed ore, or over &7fire&r to smoke/blast."
+		""
+		"&7The efficient iron line below can't start without one."
+	]
+	quest.7300000000001003.title: "Encased Fan"
+	quest.7300000000001004.quest_desc: [
+		"&eThe bootstrap path.&r"
+		""
+		"&7Crushed iron + carbon dust, fed straight into the IBF. But it yields only &c48 mb&r of molten iron — a third of an ingot. Quick to set up, painful to run. Use it for your first iron, then build the real line on the right."
+	]
+	quest.7300000000001004.title: "Iron Carbon Mix"
+	quest.7300000000001005.quest_desc: [
+		"&bThe efficient line — step 1.&r"
+		""
+		"&7Fan-wash crushed iron with water → Washed Crushed Raw Iron, plus a 25% bonus iron nugget. (The default washing recipe is removed, so this is the only way.)"
+	]
+	quest.7300000000001005.title: "Washed Crushed Iron"
+	quest.7300000000001006.quest_desc: ["Mill the washed crushed iron into fine Iron Dust."]
+	quest.7300000000001006.title: "Iron Dust"
+	quest.7300000000001007.quest_desc: ["Mix iron dust with &ecoke dust&r (from your Coke Oven) — a purified, carbon-rich mix ready to sinter."]
+	quest.7300000000001007.title: "Purified Iron Carbon Mix"
+	quest.7300000000001008.quest_desc: [
+		"&7Smoke&r the purified mix in a &eSmoker&r to &esinter&r it — bonding the carbon into the iron."
+		""
+		"&7This is the IBF-ready feed that yields a &afull&r ingot's worth of metal."
+	]
+	quest.7300000000001008.title: "Sintered Iron Mix"
+	quest.7300000000001009.quest_desc: [
+		"&6Iron, done right.&r"
+		""
+		"&7The IBF melts &esintered mix&r into &b144 mb&r of Molten Iron — a &afull ingot&r — versus the bootstrap's 48 mb. Pour it into the Casting Basin for an Iron Ingot."
+		""
+		"&7Both paths end here; the efficient line is &o3x&r the yield. This is the metal the rest of the pack is built on."
+	]
+	quest.7300000000001009.title: "Iron Ingot"
+	quest.7300000000001010.quest_desc: [
+		"&6The iron-age workhorse.&r"
+		""
+		"&7Presses ingots into plates/sheets and drives compacting recipes. It opens up copper casing and the fluid network below."
+	]
+	quest.7300000000001010.title: "Mechanical Press"
+	quest.7300000000001011.quest_desc: ["Press iron ingots into Iron Sheets/Plates — structural stock for the Item Vault and countless later recipes."]
+	quest.7300000000001011.title: "Iron Plates"
+	quest.7300000000001012.quest_desc: ["Bulk item storage, gated behind iron plates. Stack vaults into huge buffers between your machines."]
+	quest.7300000000001012.title: "Item Vault"
+	quest.7300000000001015.quest_desc: [
+		"&6The road to the Nether.&r"
+		""
+		"&7Mix &elava + water&r in a Basin to cast Obsidian — there's no diamond-pickaxe shortcut here. Build a portal: the Nether holds &eblaze burners&r (the heat for steam, brass, and the Diamond Age) plus sulfur and quartz."
+	]
+	quest.7300000000001015.title: "Obsidian"
+	quest.7300000000001016.quest_desc: [
+		"&6Brass mastered, airships automated. The deep frontier beckons.&r"
+		""
+		"&7Diamonds — and the advanced metals beyond them — lie &epast ~5500 blocks&r from spawn. Set a course and let the Navigation Table do the flying."
+		""
+		"&7Completes itself once you've traveled 5500 blocks from spawn, opening the Diamond Age."
+	]
+	quest.7300000000001016.title: "The Diamond Frontier"
+	quest.7300000000001017.quest_desc: ["The work surface of fluid crafting. A Mixer spins above it, ingredients and fluids go in, results pour out the side it faces — or pipe them away."]
+	quest.7300000000001017.title: "The Basin"
+	quest.7300000000001018.quest_desc: ["Pressed from iron sheets — the business end of the Mechanical Mixer. This is why mixing waited for the Iron Age."]
+	quest.7300000000001018.title: "Whisk"
+	quest.7300000000001019.quest_desc: [
+		"&6Your first fluid machine.&r"
+		""
+		"&7Spins a whisk over a Basin to combine items and fluids. You need it &onow&r for Obsidian — and with a Blaze Burner underneath it later, &eheated mixing&r runs brass and the whole diamond line."
+	]
+	quest.7300000000001019.title: "Mechanical Mixer"
+	quest.7300000000001020.quest_desc: ["&7Iron plates + an ingot → 4 chutes. Vertical logistics at last: drop items floor to floor, or mount a fan below and &eblow them upward&r. Your IBF tower just got a lot tidier."]
+	quest.7300000000001020.title: "Chute"
+	quest.7300000000001021.quest_desc: [
+		"&6Storage that knows what it holds.&r"
+		""
+		"&7Your Transmitter on an &eItem Vault&r. Link several vaults to one network and every item in them becomes &equeryable&r — the backbone of a real warehouse. This is where storage stops being chests and starts being infrastructure."
+	]
+	quest.7300000000001021.title: "Stock Link"
+	quest.7300000000001022.quest_desc: [
+		"&6Order, and it arrives.&r"
+		""
+		"&7Glass + a stock link + gold. The &eStock Ticker&r is a request terminal: type what you want, and the network gathers it from every linked vault into a package on your counter. The end of digging through barrels."
+	]
+	quest.7300000000001022.title: "Stock Ticker"
+	quest.7300000000001023.quest_desc: ["&bOptional.&r &7Redstone + a stock link. Requests a fixed package the moment it's powered — automated reordering, so a workshop pulls its own materials without you standing at the ticker."]
+	quest.7300000000001023.title: "Redstone Requester"
+	quest.7300000000001024.quest_desc: [
+		"&6Items into parcels.&r"
+		""
+		"&7Iron, &eCardboard&r (press paper pulp into sheets first) and redstone. A Packager wraps a stack into a Package that belts, chutes and tubes can route as a single unit — and that airships can carry between stations."
+	]
+	quest.7300000000001024.title: "Packager"
+	quest.7300000000001025.quest_desc: ["&7A frog-shaped courier on an Item Vault: it &elaunches and catches packages&r, unpacking arrivals straight into storage. Pair two across a gap — or two airship stations — and cargo flows on its own."]
+	quest.7300000000001025.title: "Package Frogport"
+	quest.7300000000001026.quest_desc: ["&7Tier 2 — the mod's Iron Drill (built from iron). Bites &ecopper, gold, redstone and lapis&r veins. Same slow trickle; parallelise. Iron itself takes the Diamond Drill."]
+	quest.7300000000001026.title: "Iron Drill"
+	quest.7400000000001002.quest_desc: [
+		"You've reached the diamond band. Diamond ore no longer drops cut gems — it drops &eRaw Diamond&r."
+		""
+		"&7There's no furnace shortcut. A raw diamond becomes a real one only through a five-step refining line — and every step runs on a machine from an earlier age."
+	]
+	quest.7400000000001002.title: "Raw Diamond"
+	quest.7400000000001003.quest_desc: ["&7Step 1.&r Cut Raw Diamond on a &eMechanical Saw&r — the zinc-age tree-feller earns a second job — into Diamond Fragments."]
+	quest.7400000000001003.title: "Diamond Fragments"
+	quest.7400000000001004.quest_desc: ["&7Step 2.&r &eHeated&r mixing of fragments with water — your Mixer over the Blaze Burner — washes away the grit."]
+	quest.7400000000001004.title: "Washed Diamond Fragments"
+	quest.7400000000001005.quest_desc: [
+		"&7Steps 3-4.&r Mix the washed fragments with &elava&r into &bDiamond Slurry&r, then &eheat-compress&r the slurry in the Rubberworks Compressor into a Rough Diamond."
+		""
+		"&7Almost a gem — it just needs a polish."
+	]
+	quest.7400000000001005.title: "Rough Diamond"
+	quest.7400000000001008.quest_desc: [
+		"&6Step 5 — a flawless gem.&r"
+		""
+		"&7Polish the Rough Diamond with a sandpaper Deployer for a real &bDiamond&r. Hard-won — and the key to the next age: the &eAdvanced Blast Furnace&r is built from them."
+	]
+	quest.7400000000001008.title: "Diamond"
+	quest.7400000000001009.quest_desc: [
+		"&6The furnace stands ready — now feed it.&r"
+		""
+		"&7Steel, lead, nickel, lithium, bauxite: everything the &eAdvanced IBF&r smelts lies &epast ~7000 blocks&r from spawn. Fly out to the deep frontier."
+		""
+		"&7Completes once you've traveled 7000 blocks from spawn, opening the Advanced Metals age."
+	]
+	quest.7400000000001009.title: "The Advanced Frontier"
+	quest.7400000000001011.quest_desc: ["&7Heated compacting in a Basin — iron + coal → &eCast Iron&r. Cheap, brittle structural metal; the Advanced IBF's hatch is framed in it."]
+	quest.7400000000001011.title: "Cast Iron"
+	quest.7400000000001012.quest_desc: ["&7Press cast iron into sheets — the plating around the Advanced IBF's hatch and output blocks."]
+	quest.7400000000001012.title: "Cast Iron Sheet"
+	quest.7400000000001013.quest_desc: [
+		"&6Diamonds' other calling.&r"
+		""
+		"&72 diamonds + 4 obsidian + a book. The &9lapis&r meteors you passed back in the iron band finally pay out."
+		""
+		"&7The 7000-block expedition is the longest flight in the pack — enchanted gear is worth the detour."
+	]
+	quest.7400000000001013.title: "Enchanting Table"
+	quest.7400000000001014.quest_desc: [
+		"&aPrepare for the deep frontier:&r"
+		""
+		"&7Diamond tools and armor, then put them on the table — Protection, Efficiency, Feather Falling (it's a &olong&r way down)."
+		""
+		"&7Check this off once you're flying out properly equipped."
+	]
+	quest.7400000000001014.title: "Suit Up"
+	quest.7500000000001001.quest_desc: [
+		"&6The only path to the late-game metals.&r"
+		""
+		"&7Built with &bdiamonds&r, the Advanced IBF is the sole way to smelt &esteel&r — and it runs the basic IBF recipes faster too. Every default smelting/blasting/vat route for these metals is removed; this machine is mandatory."
+	]
+	quest.7500000000001001.title: "The Advanced Blast Furnace"
+	quest.7500000000001002.quest_desc: ["Crush &eLimestone&r into Limesand — the flux that pulls slag out of iron to make steel. But Limestone doesn't spawn on the islands: build a &eLimestone Generator&r — flowing Lava meeting flowing &eHoney&r side by side, just like a cobblestone generator. No bees? Boil Sugar + Water into &eSweet Syrup&r in a heated Mixer and use it in place of the honey."]
+	quest.7500000000001002.title: "Flux"
+	quest.7500000000001003.quest_desc: [
+		"&6The metal that wins the war.&r"
+		""
+		"&7Crushed iron + flux in the Advanced IBF → &bMolten Steel&r (plus slag and furnace gas), cast to a Steel Ingot. Steel is the body of every Big Cannon and the gate into the endgame."
+	]
+	quest.7500000000001003.title: "Steel"
+	quest.7500000000001004.quest_desc: ["Smelt raw or crushed lead in the Advanced IBF → Molten Lead → cast. Raw gives 2 ingots, crushed gives 1."]
+	quest.7500000000001004.title: "Lead"
+	quest.7500000000001005.quest_desc: ["Advanced IBF → Molten Nickel → cast. Raw gives 2 ingots, crushed gives 1."]
+	quest.7500000000001005.title: "Nickel"
+	quest.7500000000001006.quest_desc: ["Advanced IBF → Molten Lithium → cast. Raw gives 2 ingots, crushed gives 1."]
+	quest.7500000000001006.title: "Lithium"
+	quest.7500000000001007.quest_desc: ["Crush &eBauxite&r ore into Bauxite Powder — the feedstock for aluminum."]
+	quest.7500000000001007.title: "Bauxite Powder"
+	quest.7500000000001008.quest_desc: ["2 Bauxite Powder in the Advanced IBF → Molten Aluminum (+ CO2) → cast. Lightweight metal for late-game machines."]
+	quest.7500000000001008.title: "Aluminum"
+	quest.7500000000001010.quest_desc: [
+		"&6Powered up. One frontier remains — and it isn't on the map.&r"
+		""
+		"&7Steel mills running, circuits etched, the grid humming. Find a stronghold, light the End Portal, and step through. The Ender Dragon is the final gate, and your whole industry feeds the arsenal that brings it down."
+	]
+	quest.7500000000001010.title: "To the End"
+	quest.7500000000001016.quest_desc: [
+		"&7The Advanced IBF melts &eQuartz&r (from the Nether) into &bLiquid Silicon&r — no casting step, it's used as a fluid."
+		""
+		"&7Feedstock for TFMG's electronics down the line. Optional for the dragon, essential for tinkerers."
+	]
+	quest.7500000000001016.title: "Silicon"
+	quest.7500000000001018.quest_desc: [
+		"&6The walls of the new foundry.&r"
+		""
+		"&7Reinforce fireproof bricks with a &bdiamond&r core — 8 bricks + 1 diamond → 8 Advanced Fireproof Bricks."
+		""
+		"&7The Advanced IBF validates &oonly&r these as its walls and supports. Regular fireproof bricks won't do — the upgrade is structural."
+	]
+	quest.7500000000001018.title: "Advanced Fireproof Bricks"
+	quest.7500000000001019.quest_desc: [
+		"&7Apply a steel ingot to &eHardened Planks&r (creosote-treated wood — your Coke Oven's byproduct finally pays) for a Steel Casing."
+		""
+		"&7The frame of every steel machine, and the heavy machinery casings of the next age."
+	]
+	quest.7500000000001019.title: "Steel Casing"
+	quest.7500000000001020.quest_desc: ["&7Press lead into sheets — radiation shielding by reputation, &esteel mechanisms&r by trade. The electrical age eats these."]
+	quest.7500000000001020.title: "Lead Sheet"
+	quest.7500000000001021.quest_desc: ["&7Press nickel into sheets — alloy stock for &esteel mechanisms&r and constantan. The electrical age eats these too."]
+	quest.7500000000001021.title: "Nickel Sheet"
+	quest.7500000000001022.quest_desc: [
+		"&7Every steel melt taps off &emolten slag&r — cast it (20 mb a block) instead of voiding it."
+		""
+		"&7Slag + cement or bitumen + gravel mixes into &econcrete&r and &easphalt&r by the stack — your factory floors are a steel byproduct."
+	]
+	quest.7500000000001022.title: "Slag Works"
+	quest.7500000000001023.quest_desc: [
+		"&aRefit the foundry:&r"
+		""
+		"&7The Advanced IBF runs your old &ecopper and iron&r recipes too — significantly faster than the basic furnace. Re-route your ore lines through it and retire the old stack (or keep both running in parallel)."
+		""
+		"&7Check this off once your bulk smelting flows through the advanced furnace."
+	]
+	quest.7500000000001023.title: "Refit the Foundry"
+	quest.7500000000001024.quest_desc: [
+		"&6Past 7000, new stone.&r"
+		""
+		"&7The deep band seams its islands with &egalena&r (lead), &enickel&r and &elithium&r ores, with &ebauxite&r in pockets of its own. Mine a sample of each — the Advanced IBF back home is hungry, and every one of these feeds the Electrical Age."
+	]
+	quest.7500000000001024.title: "Prospecting the Deep Band"
+	quest.7500000000001025.quest_desc: ["&7Tier 4 — the top of the chain. The Netherite Drill bites &elead, nickel, lithium, bauxite&r and finally &ediamond&r veins, plus &eancient debris&r in the Nether."]
+	quest.7500000000001025.title: "Netherite Drill"
+	quest.7500000000001026.quest_desc: ["The output port for the Advanced Blast Furnace. Like the basic IBF, the multiblock needs BOTH the Hatch and this Output set into its Advanced Fireproof Brick shell before it will run any advanced_industrial_blasting recipe."]
+	quest.7500000000001026.title: "Advanced Blast Furnace Output"
+	quest.7500000000001030.quest_desc: ["Blast &eQuartz&r in the Advanced IBF into Liquid Silicon, then cast it into a Silicon Ingot ? the sixth advanced metal and the base of every circuit board."]
+	quest.7500000000001030.title: "Silicon Ingot"
+	quest.7500000000001031.quest_desc: ["Press an Aluminum Ingot into a sheet ? light and conductive, the start of the cabling line."]
+	quest.7500000000001031.title: "Aluminum Sheet"
+	quest.7500000000001032.quest_desc: ["Compact lithium into a storage block. Lithium is the energy metal: it becomes the capacitors that power the Electrical Age."]
+	quest.7500000000001032.title: "Block of Lithium"
+	quest.7500000000001033.quest_desc: ["A large steel tank for molten metals, oil and chemicals. The Advanced IBF and the coming oil rigs all move fluids ? store them in steel."]
+	quest.7500000000001033.title: "Steel Fluid Tank"
+	quest.7500000000001034.quest_desc: ["Heavy steel pipe that carries oil, fuel and acid without leaking. The plumbing of the industrial age."]
+	quest.7500000000001034.title: "Steel Pipe"
+	quest.7500000000001035.quest_desc: ["Draw aluminum into wire ? the conductor for the cables and coils of the Electrical Age."]
+	quest.7500000000001035.title: "Aluminum Wire"
+	quest.7500000000001036.quest_desc: ["You've smelted all six advanced metals ? steel, lead, nickel, lithium, aluminum and silicon. The Advanced IBF has nothing left to teach you."]
+	quest.7500000000001036.title: "Master Metallurgist"
+	quest.7600000000001001.quest_desc: ["&7Park the Pumpjack over an oil deposit (or fly to an &eoil meteor&r) and pump up Crude Oil. Raw and useless on its own — it has to be distilled."]
+	quest.7600000000001001.title: "Crude Oil"
+	quest.7600000000001002.quest_desc: [
+		"&7Run crude through the tower and draw off &eNaphtha&r — the smokeless propellant that fires every Big Cannon."
+		""
+		"&7The other fractions (diesel, kerosene, gasoline, LPG) fuel TFMG engines — your arsenal's logistics can run on its own byproducts."
+	]
+	quest.7600000000001002.title: "Naphtha"
+	quest.7600000000001003.quest_desc: [
+		"&7Run the vat: &e3 sulfur dust&r (from the &cNether&r sulfur meteor) + nitrate dust + water → &e500 mb Sulfuric Acid&r."
+		""
+		"&7The acid nitrates the explosive filler for your shells. No acid, no boom."
+	]
+	quest.7600000000001003.title: "Sulfuric Acid"
+	quest.7600000000001004.quest_desc: [
+		"&6The explosive heart of every shell.&r"
+		""
+		"&7Nitrate paper + gunpowder with &esulfuric acid&r → Guncotton. This single recipe is the choke point that gates the whole arsenal behind your acid line."
+	]
+	quest.7600000000001004.title: "Guncotton"
+	quest.7600000000001005.quest_desc: ["Press a brass Big Cartridge Sheet, then infuse it with &enaphtha&r-treated packed gunpowder — the only big-cannon propellant. Fill it with gunpowder in the cannon to set its power level (it's refillable). Even a steel cannon can't fire without one."]
+	quest.7600000000001005.title: "Big Cartridge"
+	quest.7600000000001006.quest_desc: [
+		"&6The big gun.&r"
+		""
+		"&7Cast a Steel Cannon Barrel in the foundry. Every sub-steel cannon tier (cast iron, bronze, log) is removed in this pack — steel is the minimum, and it's the only thing that can crack an End Crystal."
+	]
+	quest.7600000000001006.title: "Steel Cannon Barrel"
+	quest.7600000000001007.quest_desc: ["The breech-loading mechanism that seals the back of a big cannon. Steel, of course."]
+	quest.7600000000001007.title: "Sliding Breech"
+	quest.7600000000001008.quest_desc: ["A powered Cannon Mount aims and fires your assembled cannon. Mount it on a Create/Sable contraption to make a turret — or an airship broadside."]
+	quest.7600000000001008.title: "Cannon Mount"
+	quest.7600000000001009.quest_desc: [
+		"&6Sustained fire.&r"
+		""
+		"&7A Steel Autocannon Barrel builds a rapid-fire gun. Autocannons are the &eDPS&r on the dragon's body — they chew it down while the big cannons handle the crystals."
+	]
+	quest.7600000000001009.title: "Autocannon"
+	quest.7600000000001010.quest_desc: ["Belt-fed rounds in an Ammo Container keep the autocannon spraying. Mass-produce them — the dragon has a lot of HP."]
+	quest.7600000000001010.title: "Autocannon Ammo"
+	quest.7600000000001011.quest_desc: [
+		"&6The crystal-killer.&r"
+		""
+		"&7A High-Explosive shell filled with packed guncotton. Big-cannon shells are the &eonly&r thing that can destroy the End Crystals healing the dragon — its blast does the job even without a pinpoint hit."
+	]
+	quest.7600000000001011.title: "HE Shell"
+	quest.7600000000001012.quest_desc: ["Armor-Piercing shells punch hard, focused damage into the dragon's body. Pair them with HE for crystals."]
+	quest.7600000000001012.title: "AP Shell"
+	quest.7600000000001013.quest_desc: [
+		"&bMount your guns and fly.&r"
+		""
+		"&7Assemble cannon barrel + breech onto a Cannon Mount, load powder charges and shells, and bolt the whole battery to your airship. Confirm it fires while flying."
+		""
+		"&7Check this off once you have an armed, airborne gunship."
+	]
+	quest.7600000000001013.title: "Arm the Airship"
+	quest.7600000000001014.quest_desc: [
+		"&6Blind the dragon.&r"
+		""
+		"&7The End Crystals atop the obsidian pillars heal the dragon and are immune to everything &oexcept&r a big-cannon shell. Knock them all out with fuzed HE fire before you can finish the fight."
+		""
+		"&7Check off once you've destroyed a crystal with a big-cannon shell."
+	]
+	quest.7600000000001014.title: "Break the Crystals"
+	quest.7600000000001015.quest_desc: [
+		"&5&lTHE FINAL STAND.&r"
+		""
+		"&7The dragon takes &ezero&r damage from anything but Create Big Cannon fire, hits like a freight train, and soaks triple the usual HP. Crystals down, autocannons hammering its body, big guns landing shells — bring it out of the sky."
+		""
+		"&7Slay the Ender Dragon, and Sky Landers is won."
+	]
+	quest.7600000000001015.title: "Slay the Ender Dragon"
+	quest.7600000000001016.quest_desc: ["&7Compact guncotton into &ePacked Guncotton&r — the high-explosive filler block that arms both HE and AP shells."]
+	quest.7600000000001016.title: "Packed Guncotton"
+	quest.7600000000001017.quest_desc: [
+		"&7A shell without a fuze is a &cdud&r — and a reliable fuze is &eelectronics&r: a circuit board behind every detonator."
+		""
+		"&7The &eInertia Fuze&r is the sophisticated impact fuze — it detonates dependably, even on bounces and grazes where the basic Impact Fuze fizzles. Screw one into the nose of every shell you fly for the crystals."
+	]
+	quest.7600000000001017.title: "Inertia Fuze"
+	quest.7600000000001018.quest_desc: ["&7The same circuit board wired to a &eclock&r: the &eDelayed Inertia Fuze&r bursts a set time after impact (or works as a base fuze) — air-burst flak for crystals you can't hit square on."]
+	quest.7600000000001018.title: "Delayed Inertia Fuze"
+	quest.7600000000001019.quest_desc: ["&7Press a steel ingot &othree times&r over (sequenced assembly) into a &eHeavy Plate&r — the structural stock of every late-game TFMG machine below."]
+	quest.7600000000001019.title: "Heavy Plate"
+	quest.7600000000001020.quest_desc: [
+		"&6The precision mechanism's big brother.&r"
+		""
+		"&7Sequenced assembly on a Heavy Plate: steel cogwheels, &enickel&r and &elead&r sheets, screws, a screwdriver pass. This is where the Age-5 metals earn their keep."
+	]
+	quest.7600000000001020.title: "Steel Mechanism"
+	quest.7600000000001021.quest_desc: ["&7Apply a steel plate to a &eSteel Casing&r — the heavy frame that oil-age machinery is built around."]
+	quest.7600000000001021.title: "Heavy Machinery Casing"
+	quest.7600000000001022.quest_desc: [
+		"&6Industrial oil extraction.&r"
+		""
+		"&7Assemble the Pumpjack (base, crank, hammer) over an oil deposit and let it hammer crude out of the rock — no bucket-scooping an arsenal's worth of oil."
+	]
+	quest.7600000000001022.title: "Pumpjack"
+	quest.7600000000001023.quest_desc: [
+		"&6Crack the barrel.&r"
+		""
+		"&7Stack the steel Distillation Tower and feed it crude: heavy oil, diesel, kerosene, gasoline, LPG — and the precious &enaphtha&r — separate out by fraction."
+	]
+	quest.7600000000001023.title: "Distillation Tower"
+	quest.7600000000001024.quest_desc: ["&7Crushing wheels grind plain &edirt&r into nitrate dust (5%). Run a dirt line — acid and TFMG gunpowder both drink from it."]
+	quest.7600000000001024.title: "Nitrate Dust"
+	quest.7600000000001025.quest_desc: [
+		"&6Industrial chemistry.&r"
+		""
+		"&7Heavy plates + nickel plates around a Steel Fluid Tank. Place vats in a grid with a &emixer attachment&r on top to run vat recipes — sulfuric acid is the one your war effort needs."
+	]
+	quest.7600000000001025.title: "Chemical Vat"
+	quest.7600000000001030.quest_desc: ["Stack Cannon Cast blocks to the length you want, then pour &emolten steel&r in from the top. It solidifies into an &7unbored&r cannon barrel — the raw casting that the Cannon Drill finishes."]
+	quest.7600000000001030.title: "Cannon Cast"
+	quest.7600000000001031.quest_desc: ["Spin a Cannon Drill into the open end of an unbored barrel to &ebore it out&r into a working Steel Cannon Barrel. Needs rotational force — a barrel won't fire until it's drilled."]
+	quest.7600000000001031.title: "Cannon Drill"
+	quest.7600000000001099.quest_desc: [
+		"&6Arm the round.&r"
+		""
+		"&7A fuze isn't installed by crafting — you fit it by hand. Hold the fuze and &eright-click the nose&r of an HE or AP shell block to mount it (a Delayed Inertia can also go on the &ebase&r). Right-click the head with an empty hand to pull a fuze back off."
+		""
+		"&7Check this off once you've fuzed a shell — an unfuzed shell hits like a brick and never detonates."
+	]
+	quest.7600000000001099.title: "Fuzing Shells"
+	quest.7700000000001001.quest_desc: [
+		"&6The portal is lit — step through.&r"
+		""
+		"&7The Nether holds what the islands can't give you: &eBlaze Rods&r for heat, &eQuartz&r for circuitry, and the &csulfur meteor&r you'll want much later."
+		""
+		"&7Completes the moment you set foot in the Nether, opening the Brass Age."
+	]
+	quest.7700000000001001.title: "To the Nether"
+	quest.7700000000001002.quest_desc: [
+		"&6The only real heat source in the pack.&r"
+		""
+		"&7Craft an &eEmpty Blaze Burner&r (iron plates around netherrack) and capture a Blaze with it at a fortress."
+		""
+		"&7It heats Basins for &eheated mixing&r — brass now, the diamond line next age — and boils the water for &eSteam Power&r back home."
+	]
+	quest.7700000000001002.title: "Blaze Burner"
+	quest.7700000000001003.quest_desc: [
+		"&6The precision metal.&r"
+		""
+		"&7&eHeated&r mixing of copper + zinc over the Blaze Burner → &e2 Brass&r. Every smart machine below is built from it."
+	]
+	quest.7700000000001003.title: "Brass"
+	quest.7700000000001005.quest_desc: ["Brass + wood — the smart machine frame. Brass funnels and tunnels (filtered item logistics), crafters and the navigation gear all start here."]
+	quest.7700000000001005.title: "Brass Casing"
+	quest.7700000000001006.quest_desc: ["&eQuartz&r from the Nether + 8 redstone, fused into Rose Quartz. The trip pays for itself."]
+	quest.7700000000001006.title: "Rose Quartz"
+	quest.7700000000001007.quest_desc: ["Hold Sand Paper and use it on the Rose Quartz (a Deployer can do it in bulk later). Polished, it conducts."]
+	quest.7700000000001007.title: "Polished Rose Quartz"
+	quest.7700000000001008.quest_desc: ["Polished rose quartz on an iron plate — the &ecircuit component&r of every smart machine: deployers, crafters, displays."]
+	quest.7700000000001008.title: "Electron Tube"
+	quest.7700000000001010.quest_desc: ["Just sand + paper — but it polishes Rose Quartz now, and &bdiamonds&r next age."]
+	quest.7700000000001010.title: "Sand Paper"
+	quest.7700000000001012.quest_desc: [
+		"&6Crafting, automated.&r"
+		""
+		"&7Electron tube + brass casing + crafting table. Gang crafters into a grid for oversized shaped recipes — the &eDocking Connector&r can only be made this way."
+	]
+	quest.7700000000001012.title: "Mechanical Crafter"
+	quest.7700000000001013.quest_desc: [
+		"&6Clockwork at last.&r"
+		""
+		"&7&eSequenced assembly&r: send a golden sheet through 5 rounds of Deployer steps — cogwheel, large cogwheel, iron nugget. Imperfect results recycle back in, so keep the line fed."
+	]
+	quest.7700000000001013.title: "Precision Mechanism"
+	quest.7700000000001014.quest_desc: [
+		"&6The airship flies itself.&r"
+		""
+		"&7Brass sheet + precision mechanism + brass casing. Plot a course on the table and the ship follows it — no pilot at the helm."
+	]
+	quest.7700000000001014.title: "Navigation Table"
+	quest.7700000000001015.quest_desc: [
+		"&6Cargo without a crew.&r"
+		""
+		"&7Mechanical-crafted from pistons, chutes, brass and an electron tube. Docks an airship to a station so items flow on and off automatically — your ships become a &elogistics network&r."
+	]
+	quest.7700000000001015.title: "Docking Connector"
+	quest.7700000000001016.quest_desc: [
+		"&6Somewhere to dock.&r"
+		""
+		"&7An electron tube and brass casing on smooth stone — a &enamed&r stop for your airships. Place one at every island you want on the network; routes are written station to station."
+	]
+	quest.7700000000001016.title: "Station"
+	quest.7700000000001017.quest_desc: ["&7Paper + a brass nugget — cheap enough to print a stack. Right-click it in hand to program a route between stations, then load it into the ship's navigation gear."]
+	quest.7700000000001017.title: "Route Card"
+	quest.7700000000001018.quest_desc: [
+		"&6The network comes alive.&r"
+		""
+		"&7Give a docked ship a programmed route card and let it fly the loop with &enobody at the helm&r. Cargo moves; you don't."
+		""
+		"&7Check this off once a ship has run an automated route end to end."
+	]
+	quest.7700000000001018.title: "Automated Logistics"
+	quest.7700000000001019.quest_desc: [
+		"&6The millstone's big brother.&r"
+		""
+		"&716 andesite alloy through the Mechanical Crafter → a &epair&r of wheels. Spun against each other they grind everything the millstone does &oplus&r the bonus byproducts milling skips — and they're the only machine that grinds &edirt&r, which matters far more than it sounds two ages from now."
+	]
+	quest.7700000000001019.title: "Crushing Wheels"
+	quest.7700000000001020.quest_desc: [
+		"&6The warehouse builds itself.&r"
+		""
+		"&7A stock link + a &eprecision mechanism&r. Set a target count on any machine's output and the &eFactory Gauge&r pulls ingredients from the stock network and runs the line until the shelf is full — &eautomated crafting&r driven by demand. The capstone of the storage tier, and the reason the brass smart-machines were worth building."
+	]
+	quest.7700000000001020.title: "Factory Gauge"
+	quest.7800000000001001.quest_desc: ["&7Cast &b144 mb&r of Liquid Silicon (Advanced IBF melts quartz) into a Silicon Ingot — the semiconductor heart of the electrical tier."]
+	quest.7800000000001001.title: "Silicon Ingot"
+	quest.7800000000001002.quest_desc: ["&7Heated mixing: &e2 nickel + silicon + 2 steel&r → Magnetic Alloy. Press it to sheets, shape magnets and coil cores — generators and motors are built around it."]
+	quest.7800000000001002.title: "Magnetic Alloy"
+	quest.7800000000001003.quest_desc: [
+		"&6Lithium finds its calling.&r"
+		""
+		"&7Sequenced assembly on a steel plate: &elithium&r, paper, &elithium&r → 4 Capacitors. Every circuit board and generator eats them — keep the lithium line running."
+	]
+	quest.7800000000001003.title: "Lithium Capacitor"
+	quest.7800000000001004.quest_desc: [
+		"&6Rotation becomes electricity.&r"
+		""
+		"&7Sequenced assembly on a shaft: capacitor, steel plate, a copper-spool &ewinding&r pass, a magnet, a steel mechanism. Spin it with your steam (or diesel) power and the grid goes live."
+	]
+	quest.7800000000001004.title: "Generator"
+	quest.7800000000001005.quest_desc: ["&7Cable hubs + wire spools carry voltage anywhere — posts for distance, a &etransformer&r to step it, a voltmeter to debug it."]
+	quest.7800000000001005.title: "Power Grid"
+	quest.7800000000001006.quest_desc: ["&6Electricity becomes rotation — anywhere.&r No shafts across the island: wire it, motor it, done."]
+	quest.7800000000001006.title: "Electric Motor"
+	quest.7800000000001007.quest_desc: ["&7Crack the light oil gases into &eethylene/propylene&r, polymerize them in a &eheated vat&r into Molten Plastic, and cast sheets — the substrate of every circuit."]
+	quest.7800000000001007.title: "Plastic"
+	quest.7800000000001008.quest_desc: ["&7Shape plastic sheets into a board, &egold-coat&r it with a Deployer, then &eetch&r it in the vat with 250 mb of your sulfuric acid. The acid line does double duty: explosives and electronics."]
+	quest.7800000000001008.title: "Etched Circuit Board"
+	quest.7800000000001009.quest_desc: [
+		"&6The brain of the endgame.&r"
+		""
+		"&7Deployers stuff the etched board with capacitors, resistors and transistors — a real assembly line's worth of components."
+		""
+		"&7Circuit boards drive engine controllers, electric machines — and every &efuze&r your cannons will fire."
+	]
+	quest.7800000000001009.title: "Circuit Board"
+	quest.7800000000001010.quest_desc: ["&7Stonecut &ecoal coke blocks&r into Graphite Electrodes — mount three on the chemical vat and feed it power for arc smelting."]
+	quest.7800000000001010.title: "Graphite Electrode"
+	quest.7800000000001011.quest_desc: [
+		"&6Steel at industrial scale.&r"
+		""
+		"&7The &eArc Furnace&r: a 9+ block firebrick-lined vat, three powered graphite electrodes, crushed iron + flux + coke dust → molten steel — far faster than the Advanced IBF. The bootstrap furnace got you here; the mill feeds the war."
+		""
+		"&7Bank 16 ingots to prove the line runs."
+	]
+	quest.7800000000001011.title: "The Steel Mill"
+	quest.7800000000001012.quest_desc: [
+		"&bOptional: burn your byproducts.&r"
+		""
+		"&7TFMG engines run on the diesel and gasoline your tower already makes — an Engine Controller and cylinders build a combustion engine for serious SU without water or wind."
+	]
+	quest.7800000000001012.title: "Diesel Power"
+	quest.7800000000001013.quest_desc: [
+		"&6Wire onto spools, spools into machines.&r"
+		""
+		"&7Steel, a heavy plate and a machinery casing — built entirely &obefore&r electricity, run on plain rotation. It performs the &ewinding&r steps in sequenced assembly: the Generator and Electric Motor lines both pass under one, fed with copper spools."
+	]
+	quest.7800000000001013.title: "Winding Machine"
+	quest.7800000000001014.quest_desc: ["Converts rotation into the up-and-down stroke of the pumpjack's walking beam. The drive end of the surface assembly."]
+	quest.7800000000001014.title: "Pumpjack Crank"
+	quest.7800000000001015.quest_desc: ["Holds the pumpjack's hammer arm. Part of the surface rig that works the down-hole pump."]
+	quest.7800000000001015.title: "Pumpjack Hammer Holder"
+	quest.7800000000001016.quest_desc: ["Links the hammer head to the holder so the beam can rock back and forth."]
+	quest.7800000000001016.title: "Pumpjack Hammer Connector"
+	quest.7800000000001017.quest_desc: ["The counterweighted head of the walking beam ? the heavy end that see-saws to lift oil. The capstone of the pumpjack."]
+	quest.7800000000001017.title: "Pumpjack Hammer Head"
+	quest.7800000000001018.quest_desc: ["A section of the hammer arm. Stack parts to reach the length the pumpjack multiblock needs."]
+	quest.7800000000001018.title: "Pumpjack Hammer Part"
+	quest.7800000000001019.quest_desc: ["The output port of the Distillation Tower ? the fractions (naphtha, diesel, gases) draw off here. The tower needs the Controller AND this Output built into its column."]
+	quest.7800000000001019.title: "Steel Distillation Output"
+	quest.7800000000001020.quest_desc: ["Firebrick-lined vat blocks. Line a Chemical Vat with these (9+) to build the &eArc Furnace&r ? the efficient steel route ? and to hold aggressive fluids like sulfuric acid."]
+	quest.7800000000001020.title: "Fireproof Chemical Vat"
+	quest.7800000000001021.quest_desc: ["Heavy fluid pipe for moving crude oil and its fractions between the pumpjack, tanks, distillation tower and vats."]
+	quest.7800000000001021.title: "Industrial Pipe"
+	quest.7800000000001022.quest_desc: ["Wound on the Winding Machine. The magnetic heart of generators and electric motors."]
+	quest.7800000000001022.title: "Electromagnetic Coil"
+	quest.7DDFAF9969A202F5.quest_desc: ["Smelt a Fireclay ball into a single Fireproof Brick. Automate it with a powered furnace or a fan over fire/lava."]
+	quest.7DDFAF9969A202F5.title: "Fireproof Brick"
+	quest.7EAA4599F869155E.quest_desc: ["Pour molten metal in to solidify it into ingots. The IBF melts, the basin casts — together they're the efficient copper line."]
+	quest.7EAA4599F869155E.title: "Casting Basin"
+	reward_table.16916392878E9276.title: "saplings"
+	task.26DBE1A6C134F513.title: "cannon assembly"
+	task.4F01DCD864D3D481.title: "no trees? T-T"
+	task.6343D70443C58540.title: "Rotational Power"
+	task.7100000000002006.title: "Auto-fell a tree"
+	task.7100000000002008.title: "Auto-harvest a field"
+	task.7200000000002001.title: "Reach 2000 blocks from spawn"
+	task.7200000000002012.title: "Reach 3500 blocks from spawn"
+	task.7300000000002016.title: "Reach 5500 blocks from spawn"
+	task.7400000000002009.title: "Reach 7000 blocks from spawn"
+	task.7400000000002014.title: "Fly out enchanted and armored"
+	task.7500000000002023.title: "Route bulk smelting through the Advanced IBF"
+	task.7600000000002013.title: "Mount cannons on a flying airship"
+	task.7600000000002014.title: "Destroy an End Crystal with a big-cannon shell"
+	task.7700000000002018.title: "Run an automated route"
+	task.77B3C62A8A3B323F.title: "auto canon"
+}

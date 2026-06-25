@@ -1,0 +1,576 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "electrical_age"
+	group: ""
+	icon: {
+		id: "tfmg:electric_motor"
+	}
+	id: "7800000000000001"
+	order_index: 6
+	quest_links: [{
+		id: "7800000000009001"
+		linked_quest: "7500000000001003"
+		shape: "gear"
+		x: 0.0d
+		y: -2.0d
+	}]
+	quests: [
+		{
+			dependencies: ["7500000000001003"]
+			id: "7600000000001019"
+			rewards: [{
+				id: "7600000000003019"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "7600000000002019"
+				item: { count: 1, id: "tfmg:heavy_plate" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7700000000001019"]
+			id: "7600000000001024"
+			rewards: [{
+				id: "7600000000003024"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "7600000000002024"
+				item: { count: 1, id: "tfmg:nitrate_dust" }
+				type: "item"
+			}]
+			x: -0.25d
+			y: 5.25d
+		}
+		{
+			dependencies: ["7600000000001019"]
+			id: "7600000000001020"
+			rewards: [{
+				id: "7600000000003020"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "7600000000002020"
+				item: { count: 1, id: "tfmg:steel_mechanism" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7600000000001020"]
+			id: "7600000000001021"
+			rewards: [{
+				id: "7600000000003021"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "7600000000002021"
+				item: { count: 1, id: "tfmg:heavy_machinery_casing" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7600000000001021"]
+			id: "7600000000001022"
+			rewards: [{
+				id: "7600000000003022"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "7600000000002022"
+				item: { count: 1, id: "tfmg:pumpjack_base" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"7800000000001014"
+				"7800000000001015"
+				"7800000000001016"
+				"7800000000001017"
+				"7800000000001018"
+			]
+			id: "7600000000001001"
+			rewards: [{
+				id: "7600000000003001"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "7600000000002001"
+				item: { count: 1, id: "tfmg:crude_oil_bucket" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7600000000001001"]
+			id: "7600000000001023"
+			rewards: [{
+				id: "7600000000003023"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "7600000000002023"
+				item: { count: 1, id: "tfmg:steel_distillation_controller" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"7600000000001023"
+				"7800000000001019"
+			]
+			id: "7600000000001002"
+			rewards: [{
+				id: "7600000000003002"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "7600000000002002"
+				item: { count: 1, id: "tfmg:naphtha_bucket" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["7600000000001021"]
+			id: "7600000000001025"
+			rewards: [{
+				id: "7600000000003025"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "7600000000002025"
+				item: { count: 1, id: "tfmg:steel_chemical_vat" }
+				type: "item"
+			}]
+			x: -0.75d
+			y: 3.25d
+		}
+		{
+			dependencies: [
+				"7600000000001025"
+				"7600000000001024"
+			]
+			id: "7600000000001003"
+			rewards: [{
+				id: "7600000000003003"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "7600000000002003"
+				item: { count: 1, id: "tfmg:sulfuric_acid_bucket" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 5.25d
+		}
+		{
+			dependencies: ["7600000000001021"]
+			id: "7800000000001001"
+			rewards: [{
+				id: "7800000000003001"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "7800000000002001"
+				item: { count: 1, id: "tfmg:silicon_ingot" }
+				type: "item"
+			}]
+			x: 1.25d
+			y: 2.25d
+		}
+		{
+			dependencies: ["7800000000001001"]
+			id: "7800000000001002"
+			rewards: [{
+				id: "7800000000003002"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "7800000000002002"
+				item: { count: 1, id: "tfmg:magnetic_alloy_ingot" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7600000000001021"]
+			id: "7800000000001003"
+			rewards: [{
+				id: "7800000000003003"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "7800000000002003"
+				item: { count: 1, id: "tfmg:capacitor_item" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.25d
+		}
+		{
+			dependencies: [
+				"7800000000001002"
+				"7800000000001003"
+				"7800000000001013"
+			]
+			id: "7800000000001004"
+			rewards: [{
+				id: "7800000000003004"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "7800000000002004"
+				item: { count: 1, id: "tfmg:generator" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7800000000001004"]
+			id: "7800000000001005"
+			rewards: [{
+				id: "7800000000003005"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "7800000000002005"
+				item: { count: 1, id: "tfmg:copper_cable_hub" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7800000000001005"]
+			id: "7800000000001006"
+			rewards: [{
+				id: "7800000000003006"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "7800000000002006"
+				item: { count: 1, id: "tfmg:electric_motor" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 5.25d
+		}
+		{
+			dependencies: ["7600000000001023"]
+			id: "7800000000001007"
+			rewards: [{
+				id: "7800000000003007"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "7800000000002007"
+				item: { count: 1, id: "tfmg:plastic_sheet" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"7800000000001007"
+				"7600000000001003"
+			]
+			id: "7800000000001008"
+			rewards: [{
+				id: "7800000000003008"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "7800000000002008"
+				item: { count: 1, id: "tfmg:etched_circuit_board" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["7800000000001008"]
+			id: "7800000000001009"
+			rewards: [{
+				id: "7800000000003009"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "7800000000002009"
+				item: { count: 1, id: "tfmg:circuit_board" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["7600000000001025"]
+			id: "7800000000001010"
+			rewards: [{
+				id: "7800000000003010"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "7800000000002010"
+				item: { count: 1, id: "tfmg:graphite_electrode" }
+				type: "item"
+			}]
+			x: 0.25d
+			y: 4.25d
+		}
+		{
+			dependencies: ["7800000000001010"]
+			id: "7800000000001011"
+			rewards: [{
+				count: 16
+				id: "7800000000003011"
+				item: {
+					count: 1
+					id: "tfmg:steel_ingot"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				count: 16L
+				id: "7800000000002011"
+				item: { count: 1, id: "tfmg:steel_ingot" }
+				type: "item"
+			}]
+			x: 1.25d
+			y: 5.25d
+		}
+		{
+			dependencies: ["7800000000001009"]
+			id: "7800000000001012"
+			optional: true
+			rewards: [{
+				id: "7800000000003012"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "7800000000002012"
+				item: { count: 1, id: "tfmg:engine_controller" }
+				type: "item"
+			}]
+			x: -4.75d
+			y: 10.0d
+		}
+		{
+			dependencies: ["7800000000001009"]
+			id: "7500000000001010"
+			rewards: [{
+				id: "7500000000003010"
+				type: "xp"
+				xp: 30
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				dimension: "minecraft:the_end"
+				id: "7500000000002010"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: 10.125d
+		}
+		{
+			dependencies: ["7600000000001021"]
+			id: "7800000000001013"
+			rewards: [{
+				id: "7800000000003013"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "7800000000002013"
+				item: { count: 1, id: "tfmg:winding_machine" }
+				type: "item"
+			}]
+			x: 2.25d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7600000000001022"]
+			id: "7800000000001014"
+			rewards: [{
+				id: "7800000000003014"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "7800000000002014"
+				item: { count: 1, id: "tfmg:pumpjack_crank" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7600000000001022"]
+			id: "7800000000001015"
+			rewards: [{
+				id: "7800000000003015"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "7800000000002015"
+				item: { count: 1, id: "tfmg:pumpjack_hammer" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7600000000001022"]
+			id: "7800000000001016"
+			rewards: [{
+				id: "7800000000003016"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "7800000000002016"
+				item: { count: 1, id: "tfmg:pumpjack_hammer_connector" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7600000000001022"]
+			id: "7800000000001017"
+			rewards: [{
+				id: "7800000000003017"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "7800000000002017"
+				item: { count: 1, id: "tfmg:pumpjack_hammer_head" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7600000000001022"]
+			id: "7800000000001018"
+			rewards: [{
+				id: "7800000000003018"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "7800000000002018"
+				item: { count: 1, id: "tfmg:pumpjack_hammer_part" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7600000000001023"]
+			id: "7800000000001019"
+			rewards: [{
+				id: "7800000000003019"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "7800000000002019"
+				item: { count: 1, id: "tfmg:steel_distillation_output" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["7600000000001025"]
+			id: "7800000000001020"
+			rewards: [{
+				id: "7800000000003020"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "7800000000002020"
+				item: { count: 1, id: "tfmg:fireproof_chemical_vat" }
+				type: "item"
+			}]
+			x: -1.75d
+			y: 3.25d
+		}
+		{
+			dependencies: ["7600000000001022"]
+			id: "7800000000001021"
+			rewards: [{
+				id: "7800000000003021"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "7800000000002021"
+				item: { count: 1, id: "tfmg:industrial_pipe" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7800000000001013"]
+			id: "7800000000001022"
+			rewards: [{
+				id: "7800000000003022"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "7800000000002022"
+				item: { count: 1, id: "tfmg:electromagnetic_coil" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.25d
+		}
+	]
+}

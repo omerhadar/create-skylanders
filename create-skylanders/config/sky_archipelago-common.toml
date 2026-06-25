@@ -5,14 +5,14 @@ islandDensity = 0.8
 #Minimum horizontal island radius in blocks.
 # Default: 24
 # Range: 8 ~ 128
-minIslandRadius = 24
+minIslandRadius = 128
 #Maximum horizontal island radius in blocks.
 # Default: 75
 # Range: 8 ~ 500
-maxIslandRadius = 75
+maxIslandRadius = 400
 #How island radius sizes are selected. RANDOM preserves global min/max behavior, SPECIFIC uses small/medium/large bands.
 #Allowed Values: RANDOM, SPECIFIC
-islandSizeMode = "RANDOM"
+islandSizeMode = "SPECIFIC"
 #Specific mode: minimum radius for small islands.
 # Default: 24
 # Range: 8 ~ 500
@@ -24,7 +24,7 @@ smallIslandMaxRadius = 41
 #Specific mode: spawn weight for small islands.
 # Default: 0.34
 # Range: 0.0 ~ 1.0
-smallIslandWeight = 0.34
+smallIslandWeight = 0.0
 #Specific mode: minimum radius for medium islands.
 # Default: 42
 # Range: 8 ~ 500
@@ -36,19 +36,19 @@ mediumIslandMaxRadius = 58
 #Specific mode: spawn weight for medium islands.
 # Default: 0.33
 # Range: 0.0 ~ 1.0
-mediumIslandWeight = 0.33
+mediumIslandWeight = 0.0
 #Specific mode: minimum radius for large islands.
 # Default: 59
 # Range: 8 ~ 500
-largeIslandMinRadius = 59
+largeIslandMinRadius = 300
 #Specific mode: maximum radius for large islands.
 # Default: 75
 # Range: 8 ~ 500
-largeIslandMaxRadius = 75
+largeIslandMaxRadius = 400
 #Specific mode: spawn weight for large islands.
 # Default: 0.33
 # Range: 0.0 ~ 1.0
-largeIslandWeight = 0.33
+largeIslandWeight = 1.0
 #Minimum Y for island centers. Values above 320 require world-height expansion mods/settings.
 # Default: 20
 # Range: -32 ~ 2000
@@ -255,9 +255,9 @@ defaultNearMissFallbackEnabled = false
 #Whether Sky Archipelago custom structure placement/support rules are enabled.
 customStructureRulesEnabled = true
 #Whether satellite/spire companion islands generate around anchor islands.
-clusterCompanionIslandsEnabled = true
+clusterCompanionIslandsEnabled = false
 #Whether anchor islands use extra fragmentation features that create small outcroppings/debris.
-anchorFragmentationEnabled = true
+anchorFragmentationEnabled = false
 #Island interior below or at this Y uses deepslate substrate. Values above 320 require world-height expansion mods/settings.
 # Default: 16
 # Range: -64 ~ 2000
@@ -290,7 +290,7 @@ skyStructureCategoryOverrides = ["minecraft:pillager_outpost=SURFACE_SKY", "mine
 #Maximum vertical island thickness in blocks. Prevents giant islands from becoming too tall/deep.
 # Default: 140
 # Range: 24 ~ 1024
-maxIslandThicknessBlocks = 140
+maxIslandThicknessBlocks = 70
 #Whether island clusters should be skipped when sampled biome is ocean.
 disableIslandsOverOceanBiomes = true
 #Whether river/beach terrain profiles blend into neighboring non-river/beach profiles.
@@ -309,7 +309,7 @@ biomeProfileBlendingBoundaryOnly = true
 skyStructureCategoryTokens = ["sky", "airship", "floating", "cloud", "aerial"]
 #How overlapping island terrain columns are resolved.
 #Allowed Values: VOID, OVERLAP, CRATER
-terrainOverlapMode = "VOID"
+terrainOverlapMode = "CRATER"
 #Category inference order when no explicit override is present: SKY, GROUND_VILLAGE, STRONGHOLD, UNDERGROUND, WATER, then MEDIUM_GROUND.
 #Keep broad MEDIUM_GROUND tokens empty unless you need them; normal uncategorized structures still use fallback/default placement.
 #Case-insensitive path tokens used to infer WATER category when no explicit override is present.

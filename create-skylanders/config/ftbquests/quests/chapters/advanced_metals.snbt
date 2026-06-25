@@ -1,0 +1,450 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "advanced_metals"
+	group: ""
+	icon: {
+		id: "tfmg:steel_ingot"
+	}
+	id: "7500000000000001"
+	order_index: 5
+	quest_links: [{
+		id: "7500000000009001"
+		linked_quest: "7400000000001009"
+		shape: "hexagon"
+		x: -7.5d
+		y: 0.25d
+	}]
+	quests: [
+		{
+			dependencies: ["7500000000001003"]
+			id: "7500000000001019"
+			rewards: [{
+				id: "7500000000003019"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "7500000000002019"
+				item: { count: 1, id: "tfmg:steel_casing" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7500000000001003"]
+			id: "7500000000001022"
+			rewards: [{
+				id: "7500000000003022"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "7500000000002022"
+				item: { count: 1, id: "tfmg:slag_block" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.25d
+		}
+		{
+			dependencies: ["7500000000001004"]
+			id: "7500000000001020"
+			rewards: [{
+				id: "7500000000003020"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "7500000000002020"
+				item: { count: 1, id: "tfmg:lead_sheet" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -0.25d
+		}
+		{
+			dependencies: ["7500000000001005"]
+			id: "7500000000001021"
+			rewards: [{
+				id: "7500000000003021"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "7500000000002021"
+				item: { count: 1, id: "tfmg:nickel_sheet" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.75d
+		}
+		{
+			dependencies: ["7500000000001001"]
+			id: "7500000000001023"
+			optional: true
+			rewards: [{
+				id: "7500000000003023"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "7500000000002023"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 0.375d
+		}
+		{
+			dependencies: [
+				"7400000000001009"
+				"735FB41E226626A3"
+			]
+			id: "7500000000001002"
+			rewards: [{
+				id: "7500000000003002"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "7500000000002002"
+				item: { count: 1, id: "tfmg:limesand" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: -1.75d
+		}
+		{
+			dependencies: [
+				"7500000000001001"
+				"7500000000001002"
+			]
+			id: "7500000000001003"
+			rewards: [{
+				count: 4
+				id: "7500000000003003"
+				item: {
+					count: 1
+					id: "tfmg:steel_ingot"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "7500000000002003"
+				item: { count: 1, id: "tfmg:steel_ingot" }
+				type: "item"
+			}]
+			x: -5.625d
+			y: -1.875d
+		}
+		{
+			dependencies: ["7500000000001001"]
+			id: "7500000000001004"
+			rewards: [{
+				id: "7500000000003004"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "7500000000002004"
+				item: { count: 1, id: "tfmg:lead_ingot" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -0.25d
+		}
+		{
+			dependencies: ["7500000000001001"]
+			id: "7500000000001005"
+			rewards: [{
+				id: "7500000000003005"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "7500000000002005"
+				item: { count: 1, id: "tfmg:nickel_ingot" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["7500000000001001"]
+			id: "7500000000001006"
+			rewards: [{
+				id: "7500000000003006"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "7500000000002006"
+				item: { count: 1, id: "tfmg:lithium_ingot" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.75d
+		}
+		{
+			dependencies: ["7500000000001024"]
+			id: "7500000000001007"
+			rewards: [{
+				id: "7500000000003007"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "7500000000002007"
+				item: { count: 1, id: "tfmg:bauxite_powder" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"7500000000001001"
+				"7500000000001007"
+			]
+			id: "7500000000001008"
+			rewards: [{
+				id: "7500000000003008"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "7500000000002008"
+				item: { count: 1, id: "tfmg:aluminum_ingot" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7500000000001001"]
+			id: "7500000000001016"
+			optional: true
+			rewards: [{
+				id: "7500000000003016"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "7500000000002016"
+				item: { count: 1, id: "minecraft:quartz" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.75d
+		}
+		{
+			dependencies: ["7400000000001009"]
+			id: "7500000000001024"
+			rewards: [{
+				id: "7500000000003024"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [
+				{
+					id: "7500000000002024"
+					item: { count: 1, id: "tfmg:raw_lead" }
+					type: "item"
+				}
+				{
+					id: "7500000000002025"
+					item: { count: 1, id: "tfmg:raw_nickel" }
+					type: "item"
+				}
+				{
+					id: "7500000000002026"
+					item: { count: 1, id: "tfmg:raw_lithium" }
+					type: "item"
+				}
+				{
+					id: "7500000000002027"
+					item: { count: 1, id: "tfmg:bauxite" }
+					type: "item"
+				}
+			]
+			x: -5.5d
+			y: 0.25d
+		}
+		{
+			dependencies: ["7400000000001009"]
+			id: "7500000000001025"
+			rewards: [{
+				id: "7500000000003025"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "3E999F19BA2C08EC"
+				item: { count: 1, id: "createoreexcavation:netherite_drill" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6EF1C3459473DE9E"]
+			id: "735FB41E226626A3"
+			tasks: [{
+				id: "11B4B3F1B8EC9CE2"
+				item: { count: 1, id: "create:limestone" }
+				type: "item"
+			}]
+			x: -9.75d
+			y: -1.75d
+		}
+		{
+			icon: {
+				id: "kubejs:sweet_syrup_bucket"
+			}
+			id: "6EF1C3459473DE9E"
+			rewards: [{
+				id: "2266F4E6EE7058D0"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [
+				{
+					id: "73E4495FB128F399"
+					item: { count: 1, id: "kubejs:sweet_syrup_bucket" }
+					type: "item"
+				}
+				{
+					id: "15AF2A861B085FA2"
+					item: { count: 1, id: "minecraft:lava_bucket" }
+					type: "item"
+				}
+			]
+			x: -12.0d
+			y: -1.75d
+		}
+		{
+			dependencies: ["7500000000001016"]
+			id: "7500000000001030"
+			rewards: [{
+				id: "7500000000003030"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "7500000000002030"
+				item: { count: 1, id: "tfmg:silicon_ingot" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.75d
+		}
+		{
+			dependencies: ["7500000000001008"]
+			id: "7500000000001031"
+			rewards: [{
+				id: "7500000000003031"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "7500000000002031"
+				item: { count: 1, id: "tfmg:aluminum_sheet" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7500000000001006"]
+			id: "7500000000001032"
+			rewards: [{
+				id: "7500000000003032"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "7500000000002032"
+				item: { count: 1, id: "tfmg:lithium_block" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.75d
+		}
+		{
+			dependencies: ["7500000000001003"]
+			id: "7500000000001033"
+			rewards: [{
+				id: "7500000000003033"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "7500000000002033"
+				item: { count: 1, id: "tfmg:steel_fluid_tank" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7500000000001003"]
+			id: "7500000000001034"
+			rewards: [{
+				id: "7500000000003034"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "7500000000002034"
+				item: { count: 1, id: "tfmg:steel_pipe" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.25d
+		}
+		{
+			dependencies: ["7500000000001031"]
+			id: "7500000000001035"
+			rewards: [{
+				id: "7500000000003035"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "7500000000002035"
+				item: { count: 1, id: "tfmg:aluminum_wire" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.25d
+		}
+		{
+			dependencies: [
+				"7500000000001003"
+				"7500000000001004"
+				"7500000000001005"
+				"7500000000001006"
+				"7500000000001008"
+				"7500000000001030"
+			]
+			id: "7500000000001036"
+			optional: true
+			rewards: [{
+				id: "7500000000003036"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "7500000000002036"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+	]
+}

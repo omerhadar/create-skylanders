@@ -28,7 +28,7 @@
     "floor": {
       "type": "minecraft:simple_state_provider",
       "state": {
-        "Name": "kubejs:lithium_deposit"
+        "Name": "minecraft:blackstone"
       }
     },
     "radius": {

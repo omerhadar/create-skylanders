@@ -1,0 +1,15 @@
+{
+  "values": [
+    "#c:ores",
+    "create:crimsite",
+    "create:veridium",
+    "create:asurine",
+    "create:ochrum",
+    "tfmg:lead_ore",
+    "tfmg:nickel_ore",
+    "tfmg:lithium_ore",
+    "tfmg:bauxite",
+    "tfmg:galena",
+    "tfmg:sulfur"
+  ]
+}

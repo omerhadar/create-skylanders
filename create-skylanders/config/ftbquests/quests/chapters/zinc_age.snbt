@@ -1,0 +1,349 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "zinc_age"
+	group: ""
+	icon: {
+		id: "create:andesite_alloy"
+	}
+	id: "7100000000000001"
+	order_index: 0
+	quest_links: [
+		{
+			id: "04FAD3AF11E0BEF4"
+			linked_quest: "7200000000001001"
+			shape: "hexagon"
+			x: 7.5d
+			y: 1.0d
+		}
+		{
+			id: "0B2AC3689F824524"
+			linked_quest: "15F3BC0C6957CD13"
+			x: 6.5d
+			y: -4.0d
+		}
+	]
+	quests: [
+		{
+			dependencies: ["1EC7735BFC5E654A"]
+			id: "7100000000001001"
+			rewards: [{
+				id: "7100000000003001"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "7100000000002001"
+				item: { count: 1, id: "create:andesite_alloy" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7100000000001001"]
+			id: "7100000000001018"
+			rewards: [{
+				id: "7100000000003018"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "1F12B23C8DC7EFF7"
+				item: { count: 1, id: "create:shaft" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7100000000001018"]
+			id: "7100000000001019"
+			rewards: [{
+				id: "7100000000003019"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "7100000000002019"
+				item: { count: 1, id: "create:hand_crank" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7100000000001018"]
+			id: "7100000000001020"
+			rewards: [{
+				id: "7100000000003020"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "7100000000002020"
+				item: { count: 1, id: "create:water_wheel" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7100000000001020"]
+			id: "7100000000001021"
+			rewards: [{
+				id: "7100000000003021"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "7100000000002021"
+				item: { count: 1, id: "create:large_water_wheel" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7100000000001018"]
+			id: "7100000000001022"
+			rewards: [{
+				id: "7100000000003022"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "7100000000002022"
+				item: { count: 1, id: "create:mechanical_bearing" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["19222CBBA1A865FD"]
+			id: "7100000000001005"
+			rewards: [{
+				id: "7100000000003005"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "7100000000002005"
+				item: { count: 1, id: "create:mechanical_saw" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"7100000000001005"
+				"7100000000001027"
+			]
+			id: "7100000000001006"
+			optional: true
+			rewards: [{
+				id: "7100000000003006"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "7100000000002006"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["19222CBBA1A865FD"]
+			id: "7100000000001007"
+			rewards: [{
+				id: "7100000000003007"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "7100000000002007"
+				item: { count: 1, id: "create:mechanical_harvester" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7100000000001007"]
+			id: "7100000000001008"
+			optional: true
+			rewards: [{
+				id: "7100000000003008"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "7100000000002008"
+				type: "checkmark"
+			}]
+			x: 5.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["301EE510A158B57F"]
+			id: "7100000000001009"
+			rewards: [{
+				id: "7100000000003009"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "7100000000002009"
+				item: { count: 1, id: "aeronautics:wooden_propeller" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["301EE510A158B57F"]
+			id: "7100000000001024"
+			rewards: [{
+				id: "7100000000003024"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "7100000000002024"
+				item: { count: 1, id: "aeronautics:adjustable_burner" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["301EE510A158B57F"]
+			id: "7100000000001025"
+			rewards: [{
+				id: "7100000000003025"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "7100000000002025"
+				item: { count: 1, id: "aeronautics:white_envelope" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -1.0d
+		}
+		{
+			id: "56365C9C4CE7039E"
+			rewards: [{
+				id: "0861D54FD1197D0A"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "6AFE5F8CA6FBA236"
+				item: { count: 1, id: "create:raw_zinc" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["56365C9C4CE7039E"]
+			id: "1EC7735BFC5E654A"
+			rewards: [{
+				id: "41672C245431577C"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "056643D222DD75CA"
+				item: { count: 1, id: "create:zinc_ingot" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"7100000000001020"
+				"7100000000001022"
+				"7100000000001019"
+			]
+			id: "301EE510A158B57F"
+			rewards: [{
+				id: "25F579487E5AB73A"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "6343D70443C58540"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "minecraft:oak_sapling"
+			}
+			id: "7D0EF33904C93D86"
+			repeat_cooldown: 300
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1BB4A14F6C69A1D1"
+				table_id: 1626190421448102518L
+				type: "choice"
+			}]
+			shape: "rsquare"
+			size: 4.0d
+			tasks: [{
+				id: "4F01DCD864D3D481"
+				optional_task: true
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["7100000000001018"]
+			icon: {
+				id: "create:deployer"
+			}
+			id: "7100000000001027"
+			rewards: [{
+				id: "7100000000003027"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "7100000000002027"
+				item: { count: 1, id: "create:deployer" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["301EE510A158B57F"]
+			id: "19222CBBA1A865FD"
+			rewards: [{
+				id: "043E4FBE7F34D6C0"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "7A94696BACA909D9"
+				item: { count: 1, id: "create:mechanical_bearing" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.5d
+		}
+	]
+}

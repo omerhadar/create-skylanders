@@ -59,6 +59,9 @@
     "entity": true,
     "entity_variant": true
   },
+  "ftbquests": {
+    "barrier": true
+  },
   "jade": {
     "coordinates.rel": false,
     "registry_name.special": false,
@@ -70,7 +73,10 @@
     "block_properties": false,
     "mod_name": true
   },
-  "tsuki": {
-    "machine_info": true
+  "gravestone": {
+    "grave": true
+  },
+  "balm": {
+    "jade": true
   }
 }

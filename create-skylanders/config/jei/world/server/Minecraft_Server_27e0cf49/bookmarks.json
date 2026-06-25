@@ -1,0 +1,5 @@
+[
+  {"version":2},
+  {"ingredient":{"id":"create:mechanical_bearing"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"create:hand_crank"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

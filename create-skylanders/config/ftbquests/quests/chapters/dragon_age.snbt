@@ -1,0 +1,456 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "dragon_age"
+	group: ""
+	icon: {
+		components: {
+			"ftbquests:icon": "ftblibrary:textures/faces/minecraft/ender_dragon.png"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "7600000000000001"
+	order_index: 7
+	quest_links: [{
+		id: "7600000000009001"
+		linked_quest: "7500000000001010"
+		shape: "hexagon"
+		x: 0.75d
+		y: -7.25d
+	}]
+	quests: [
+		{
+			dependencies: [
+				"7600000000001003"
+				"7500000000001010"
+			]
+			id: "7600000000001004"
+			rewards: [{
+				id: "7600000000003004"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "7600000000002004"
+				item: { count: 1, id: "createbigcannons:guncotton" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7600000000001004"]
+			id: "7600000000001016"
+			rewards: [{
+				id: "7600000000003016"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "7600000000002016"
+				item: { count: 1, id: "createbigcannons:packed_guncotton" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7600000000001002"]
+			id: "7600000000001005"
+			rewards: [{
+				id: "7600000000003005"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "7600000000002005"
+				item: { count: 1, id: "createbigcannons:big_cartridge" }
+				type: "item"
+			}]
+			x: 0.25d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7800000000001009"]
+			id: "7600000000001017"
+			rewards: [{
+				id: "7600000000003017"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "7600000000002017"
+				item: { count: 1, id: "createbigcannons:inertia_fuze" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7800000000001009"]
+			id: "7600000000001018"
+			rewards: [{
+				id: "7600000000003018"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "7600000000002018"
+				item: { count: 1, id: "createbigcannons:delayed_inertia_fuze" }
+				type: "item"
+			}]
+			x: -1.25d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"7500000000001003"
+				"7600000000001031"
+			]
+			id: "7600000000001006"
+			rewards: [{
+				id: "7600000000003006"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "7600000000002006"
+				item: { count: 1, id: "createbigcannons:steel_cannon_barrel" }
+				type: "item"
+			}]
+			x: 3.75d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"7500000000001003"
+				"7600000000001031"
+			]
+			id: "7600000000001007"
+			rewards: [{
+				id: "7600000000003007"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "7600000000002007"
+				item: { count: 1, id: "createbigcannons:steel_sliding_breechblock" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.75d
+		}
+		{
+			dependencies: [
+				"7500000000001003"
+				"4E0553FCE765414B"
+				"0B0C2D8F2915822E"
+			]
+			id: "7600000000001008"
+			rewards: [{
+				id: "7600000000003008"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "7600000000002008"
+				item: { count: 1, id: "createbigcannons:cannon_mount" }
+				type: "item"
+			}]
+			x: 3.25d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"7500000000001003"
+				"7600000000001031"
+			]
+			id: "7600000000001009"
+			rewards: [{
+				id: "7600000000003009"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "7600000000002009"
+				item: { count: 1, id: "createbigcannons:steel_autocannon_barrel" }
+				type: "item"
+			}]
+			x: 6.25d
+			y: -2.0d
+		}
+		{
+			id: "7600000000001010"
+			rewards: [{
+				id: "7600000000003010"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "7600000000002010"
+				item: { count: 1, id: "createbigcannons:autocannon_ammo_container" }
+				type: "item"
+			}]
+			x: 1.75d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7600000000001016"]
+			id: "7600000000001011"
+			rewards: [{
+				id: "7600000000003011"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "7600000000002011"
+				item: { count: 1, id: "createbigcannons:he_shell" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7600000000001016"]
+			id: "7600000000001012"
+			rewards: [{
+				id: "7600000000003012"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "7600000000002012"
+				item: { count: 1, id: "createbigcannons:ap_shell" }
+				type: "item"
+			}]
+			x: -1.25d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"7600000000001008"
+				"7600000000001005"
+				"7600000000001099"
+				"7600000000001010"
+			]
+			id: "7600000000001013"
+			rewards: [{
+				id: "7600000000003013"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "7600000000002013"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7600000000001013"]
+			id: "7600000000001014"
+			rewards: [{
+				id: "7600000000003014"
+				type: "xp"
+				xp: 30
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "7600000000002014"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7600000000001014"]
+			id: "7600000000001015"
+			rewards: [{
+				id: "7600000000003015"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				id: "7600000000002015"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"7600000000001011"
+				"7600000000001012"
+				"7600000000001017"
+				"7600000000001018"
+			]
+			id: "7600000000001099"
+			max_completable_dependents: 4
+			min_required_dependencies: 2
+			rewards: [{
+				id: "7600000000003099"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "7600000000002099"
+				type: "checkmark"
+			}]
+			x: -1.85d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"7500000000001003"
+				"7500000000001010"
+			]
+			id: "7600000000001030"
+			rewards: [{
+				id: "7600000000003030"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "7600000000002030"
+				item: { components: { "ftbquests:missing_item": "createbigcannons:cannon_cast" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["7600000000001030"]
+			id: "7600000000001031"
+			rewards: [{
+				id: "7600000000003031"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "7600000000002031"
+				item: { count: 1, id: "createbigcannons:cannon_drill" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -3.75d
+		}
+		{
+			dependencies: ["7600000000001031"]
+			id: "523768A5164397BF"
+			rewards: [{
+				id: "44A4879C93248C51"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "22BB6ABDE1873128"
+				item: { count: 1, id: "createbigcannons:steel_cannon_chamber" }
+				type: "item"
+			}]
+			x: 2.25d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7600000000001007"]
+			id: "605C1F0438879325"
+			rewards: [{
+				id: "32D8B4B8562F0B77"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "69E6B57AD181A4C3"
+				item: { count: 1, id: "createbigcannons:quickfiring_mechanism" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["19691BA4879E793F"]
+			id: "0B0C2D8F2915822E"
+			rewards: [{
+				id: "6D3A6B0D9EDB3AC0"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "26DBE1A6C134F513"
+				type: "checkmark"
+			}]
+			x: 4.25d
+			y: 1.75d
+		}
+		{
+			dependencies: [
+				"7600000000001006"
+				"605C1F0438879325"
+				"523768A5164397BF"
+				"1D5A65EB76AA095E"
+				"032CB7F18DE3CB73"
+				"7600000000001009"
+			]
+			id: "19691BA4879E793F"
+			tasks: [{
+				id: "225AB06EA16C5684"
+				item: { count: 1, id: "createbigcannons:cannon_welder" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -0.25d
+		}
+		{
+			dependencies: ["7600000000001031"]
+			id: "032CB7F18DE3CB73"
+			rewards: [{
+				id: "2DAC14820CFBE6E8"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "74574F77E29BA099"
+				item: { count: 1, id: "createbigcannons:steel_autocannon_recoil_spring" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7600000000001031"]
+			id: "1D5A65EB76AA095E"
+			rewards: [{
+				id: "18B65C3724FC02BA"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "731960A0396667A1"
+				item: { count: 1, id: "createbigcannons:steel_autocannon_breech" }
+				type: "item"
+			}]
+			x: 9.75d
+			y: -2.0d
+		}
+		{
+			dependencies: ["19691BA4879E793F"]
+			id: "4E0553FCE765414B"
+			rewards: [{
+				id: "2DED5EBDBFDAAFA4"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "77B3C62A8A3B323F"
+				type: "checkmark"
+			}]
+			x: 5.5d
+			y: 1.75d
+		}
+	]
+}

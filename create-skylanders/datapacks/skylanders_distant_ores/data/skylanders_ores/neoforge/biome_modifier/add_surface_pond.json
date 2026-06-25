@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#minecraft:is_overworld",
+  "features": ["skylanders_ores:surface_pond"],
+  "step": "lakes"
+}

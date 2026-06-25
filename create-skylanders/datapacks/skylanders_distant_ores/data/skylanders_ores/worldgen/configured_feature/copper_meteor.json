@@ -28,7 +28,7 @@
     "floor": {
       "type": "minecraft:simple_state_provider",
       "state": {
-        "Name": "kubejs:copper_deposit"
+        "Name": "minecraft:tuff"
       }
     },
     "radius": {

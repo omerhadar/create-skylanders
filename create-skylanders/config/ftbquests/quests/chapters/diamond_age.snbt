@@ -1,0 +1,282 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "diamond_age"
+	group: ""
+	icon: {
+		id: "minecraft:diamond"
+	}
+	id: "7400000000000001"
+	order_index: 4
+	quest_links: [{
+		id: "7400000000009001"
+		linked_quest: "7300000000001016"
+		shape: "hexagon"
+		x: -3.25d
+		y: 4.0d
+	}]
+	quests: [
+		{
+			dependencies: ["7300000000001016"]
+			id: "7400000000001002"
+			rewards: [{
+				id: "7400000000003002"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "7400000000002002"
+				item: { count: 1, id: "kubejs:raw_diamond" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7400000000001002"]
+			id: "7400000000001003"
+			rewards: [{
+				id: "7400000000003003"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "7400000000002003"
+				item: { count: 1, id: "kubejs:diamond_fragments" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.75d
+		}
+		{
+			dependencies: ["7400000000001003"]
+			id: "7400000000001004"
+			rewards: [{
+				id: "7400000000003004"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "7400000000002004"
+				item: { count: 1, id: "kubejs:washed_diamond_fragments" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.75d
+		}
+		{
+			dependencies: ["7400000000001004"]
+			id: "7400000000001005"
+			rewards: [{
+				id: "7400000000003005"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "7400000000002005"
+				item: { count: 1, id: "kubejs:rough_diamond" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7400000000001005"]
+			id: "7400000000001008"
+			rewards: [{
+				count: 2
+				id: "7400000000003008"
+				item: {
+					count: 1
+					id: "minecraft:diamond"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "7400000000002008"
+				item: { count: 1, id: "minecraft:diamond" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["7400000000001008"]
+			id: "7500000000001018"
+			rewards: [{
+				id: "7500000000003018"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "7500000000002018"
+				item: { count: 1, id: "skylandersmeteors:advanced_fireproof_bricks" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			id: "7400000000001011"
+			rewards: [{
+				id: "7400000000003011"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "7400000000002011"
+				item: { count: 1, id: "tfmg:cast_iron_ingot" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["7400000000001011"]
+			id: "7400000000001012"
+			rewards: [{
+				id: "7400000000003012"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "7400000000002012"
+				item: { count: 1, id: "tfmg:cast_iron_sheet" }
+				type: "item"
+			}]
+			x: -3.25d
+			y: 8.5d
+		}
+		{
+			dependencies: ["7400000000001008"]
+			id: "7400000000001013"
+			rewards: [{
+				id: "7400000000003013"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "7400000000002013"
+				item: { count: 1, id: "minecraft:enchanting_table" }
+				type: "item"
+			}]
+			x: 1.75d
+			y: 7.0d
+		}
+		{
+			dependencies: ["7400000000001013"]
+			id: "7400000000001014"
+			optional: true
+			rewards: [{
+				id: "7400000000003014"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "7400000000002014"
+				type: "checkmark"
+			}]
+			x: 1.75d
+			y: 8.5d
+		}
+		{
+			dependencies: [
+				"7500000000001018"
+				"7400000000001012"
+				"7500000000001026"
+			]
+			id: "7500000000001001"
+			rewards: [{
+				id: "7500000000003001"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					id: "7500000000002001"
+					item: { count: 1, id: "skylandersmeteors:advanced_blast_furnace_hatch" }
+					type: "item"
+				}
+				{
+					id: "1FAB235AF5E10416"
+					item: { count: 1, id: "skylandersmeteors:advanced_blast_furnace_output" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["7500000000001001"]
+			id: "7400000000001009"
+			rewards: [{
+				id: "7400000000003009"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "7400000000002009"
+				type: "custom"
+			}]
+			x: 0.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["7400000000001008"]
+			id: "6365C3EFB02C7B50"
+			optional: true
+			rewards: [{
+				id: "0FE9CD8575DDC671"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "742E7322B0283217"
+				item: { count: 1, id: "createoreexcavation:diamond_drill" }
+				type: "item"
+			}]
+			x: 1.75d
+			y: 5.5d
+		}
+		{
+			dependencies: ["6365C3EFB02C7B50"]
+			id: "15536D541830526D"
+			optional: true
+			rewards: [{
+				id: "10536C1F67CB6D9E"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "4E8901238563AA48"
+				type: "checkmark"
+			}]
+			x: 3.25d
+			y: 5.5d
+		}
+		{
+			dependencies: ["7500000000001018"]
+			id: "7500000000001026"
+			rewards: [{
+				id: "7500000000003026"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "4A621901A5CBA6F5"
+				item: { count: 1, id: "skylandersmeteors:advanced_blast_furnace_output" }
+				type: "item"
+			}]
+			x: -1.75d
+			y: 8.5d
+		}
+	]
+}

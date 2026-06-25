@@ -11,7 +11,17 @@ const DEPOSITS = [
     { name: 'diamond', color: 0x4AEDD9 },
     { name: 'lead', color: 0x6B7A8C },
     { name: 'nickel', color: 0xE0DAA0 },
-    { name: 'lithium', color: 0xD4C8D8 }
+    { name: 'lithium', color: 0xD4C8D8 },
+    // Zinc meteor (starts at copper-age distance) — silver-blue node
+    { name: 'zinc', color: 0xB8C4CC },
+    // Sulfur meteor — Nether-only, gates CBC explosives (sulfuric acid). Sulfur-yellow node.
+    { name: 'sulfur', color: 0xE8D24A },
+    // Bauxite meteor — the only Age-5 metal (aluminum) without a renewable source; reddish-brown node.
+    { name: 'bauxite', color: 0xC06B3E },
+    // Redstone meteor — heavy CBC-fuze + Create consumer, band-limited with no other renewable source.
+    { name: 'redstone', color: 0xD42A2A },
+    // Lapis meteor — iron-band companion to redstone; enchanting + brass-age circuitry dye.
+    { name: 'lapis', color: 0x2E5FD4 }
 ]
 
 StartupEvents.registry('block', event => {
@@ -30,11 +40,6 @@ StartupEvents.registry('block', event => {
     })
 })
 
-StartupEvents.registry('item', event => {
-    // Energised diamond — consumed one-per-use on a deposit to renew ore around it.
-    event.create('diamond_catalyst')
-        .displayName('Diamond Catalyst')
-        .texture('minecraft:item/diamond')
-        .color(0, 0xFFE08A)
-        .maxStackSize(16)
-})
+// NOTE: the diamond_catalyst item registration was REMOVED 2026-06-14 — the catalyst/deposit-regrow
+// renewable system is retired in favour of Create: Ore Excavation drills. The deposit blocks above
+// stay (inert meteor-floor decoration referenced by the worldgen JSONs). See meteor_age.js.

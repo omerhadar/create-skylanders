@@ -21,6 +21,11 @@ ServerEvents.recipes(function(event) {
         event.remove({ type: 'minecraft:blasting', input: ore });
     });
 
+    // Crushing wheels turn diamond ore into cut diamonds directly — full bypass
+    // of the raw-diamond line (silk touch + crush). Remove both variants.
+    event.remove({ id: 'create:crushing/diamond_ore' });
+    event.remove({ id: 'create:crushing/deepslate_diamond_ore' });
+
     // ── Diamond processing line (6 steps) ──
 
     // 1. Mechanical saw: raw diamond → fragments

@@ -79,6 +79,28 @@ ServerEvents.recipes(function (event) {
         C: 'create:andesite_casing'
     });
 
+    // ── Ore-stones in the millstone ──
+    // Create's ore-bearing stones (crimsite/veridium/asurine/ochrum) normally need
+    // crushing wheels, which are mechanical-crafted — brass age. The islands carry
+    // these stones from the start, so let the millstone work them too: same primary
+    // ore chance, but the bonus nugget stays crushing-wheel-only so the wheels are
+    // still the upgrade.
+    event.recipes.create.milling([
+        CreateItem.of('create:crushed_raw_iron', 0.4)
+    ], 'create:crimsite').id('kubejs:age1/crimsite_milling');
+
+    event.recipes.create.milling([
+        CreateItem.of('create:crushed_raw_copper', 0.8)
+    ], 'create:veridium').id('kubejs:age1/veridium_milling');
+
+    event.recipes.create.milling([
+        CreateItem.of('create:crushed_raw_zinc', 0.3)
+    ], 'create:asurine').id('kubejs:age1/asurine_milling');
+
+    event.recipes.create.milling([
+        CreateItem.of('create:crushed_raw_gold', 0.2)
+    ], 'create:ochrum').id('kubejs:age1/ochrum_milling');
+
     // ── TFMG foundry shell: fireclay → fireproof bricks → blast furnace + casting basin ──
     // Default TFMG paths use cast-iron components. Remove them so our gated recipes
     // (no cast iron required in age 1) are the only paths.
@@ -138,4 +160,75 @@ ServerEvents.recipes(function (event) {
         B: 'tfmg:fireproof_bricks',
         A: 'create:andesite_alloy'
     }).id('kubejs:age1/casting_basin');
+
+    // ── Deployer re-tiered to the zinc age ──
+    // Default deployer is naturally brass/nether-gated: its hand needs brass plates
+    // and its body needs an electron tube (rose quartz). Re-tier both to zinc so the
+    // deployer is an early automation tool. This bypasses no metal gate — copper/iron
+    // sheets (hammer/press), the precision mechanism (iron+gold) and the diamond polish
+    // (rough_diamond → nether-gated line) are all still locked by their own materials.
+    // The brass_hand item is renamed "Zinc Hand" via the create lang override.
+    event.remove({ id: 'create:crafting/kinetics/brass_hand' });
+    event.shaped('create:brass_hand', [
+        ' A ',
+        'ZZZ',
+        ' Z '
+    ], {
+        Z: '#c:ingots/zinc',
+        A: 'create:andesite_alloy'
+    }).id('kubejs:age1/zinc_hand');
+
+    event.remove({ id: 'create:crafting/kinetics/deployer' });
+    event.shaped('create:deployer', [
+        'S',
+        'C',
+        'H'
+    ], {
+        S: 'create:shaft',
+        C: 'create:andesite_casing',
+        H: 'create:brass_hand'
+    }).id('kubejs:age1/deployer');
+
+    // ── Super glue + cheaper slime (zinc age) ──
+    // Super glue is the glue that holds contraptions together — and airships/contraptions are
+    // core to a sky pack — but Create gates it behind iron plates, an age too late. Re-tier it
+    // to zinc (drop the iron). Slime gates super glue AND stickers, sticky pistons and the
+    // frogport, yet slimes barely spawn on floating islands, so make the Create slime recipe
+    // far cheaper: same dough + lime dye, but 4 balls per craft instead of 1.
+    event.remove({ id: 'create:crafting/kinetics/super_glue' });
+    event.shapeless('create:super_glue', [
+        '#c:slimeballs',
+        '#c:slimeballs',
+        'create:zinc_nugget'
+    ]).id('kubejs:age1/super_glue');
+
+    event.remove({ id: 'create:crafting/appliances/slime_ball' });
+    event.shapeless('4x minecraft:slime_ball', [
+        'create:dough',
+        '#c:dyes/lime'
+    ]).id('kubejs:age1/cheap_slime');
+
+    // Green dye by milling grass — green is the gate for lime dye (→ slime), and cactus is
+    // scarce on floating islands. Grass is everywhere and renewable, so the millstone turns
+    // it into green pigment. Tall grass is two plants, so it gives two.
+    event.recipes.create.milling(['minecraft:green_dye'], 'minecraft:short_grass')
+        .id('kubejs:age1/green_dye_from_grass');
+    event.recipes.create.milling(['2x minecraft:green_dye'], 'minecraft:tall_grass')
+        .id('kubejs:age1/green_dye_from_tall_grass');
+});
+
+// ── Zinc ore mining tier: stone, not iron ──
+// Zinc is the STARTING metal, but Create ships its ores in #minecraft:needs_iron_tool —
+// a chicken-and-egg gate (you'd need iron to mine the metal that comes before iron).
+// Drop the zinc blocks to stone-tier (like vanilla iron ore) so a stone pickaxe works.
+ServerEvents.tags('block', function (event) {
+    [
+        'create:zinc_ore',
+        'create:deepslate_zinc_ore',
+        'create:raw_zinc_block',
+        'create:zinc_block'
+    ].forEach(function (block) {
+        event.remove('minecraft:needs_iron_tool', block);
+        event.add('minecraft:needs_stone_tool', block);
+    });
 });

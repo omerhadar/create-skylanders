@@ -1,0 +1,431 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "iron_age"
+	group: ""
+	icon: {
+		id: "minecraft:iron_ingot"
+	}
+	id: "7300000000000001"
+	order_index: 2
+	quest_links: [
+		{
+			id: "7300000000009001"
+			linked_quest: "7200000000001012"
+			shape: "hexagon"
+			x: 0.0d
+			y: -0.25d
+		}
+		{
+			id: "498F631426E238EF"
+			linked_quest: "7700000000001001"
+			shape: "hexagon"
+			size: 2.0d
+			x: 0.0d
+			y: 11.0d
+		}
+	]
+	quests: [
+		{
+			dependencies: ["7200000000001012"]
+			id: "7300000000001001"
+			rewards: [{
+				id: "7300000000003001"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "7300000000002001"
+				item: { count: 1, id: "minecraft:raw_iron" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7300000000001001"]
+			id: "7300000000001002"
+			rewards: [{
+				id: "7300000000003002"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "7300000000002002"
+				item: { count: 1, id: "create:crushed_raw_iron" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7300000000001011"]
+			id: "7300000000001003"
+			rewards: [{
+				id: "7300000000003003"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "7300000000002003"
+				item: { count: 1, id: "create:encased_fan" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7300000000001002"]
+			id: "7300000000001004"
+			rewards: [{
+				id: "7300000000003004"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "7300000000002004"
+				item: { count: 1, id: "kubejs:iron_carbon_mix" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7300000000001003"]
+			id: "7300000000001005"
+			rewards: [{
+				id: "7300000000003005"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "7300000000002005"
+				item: { count: 1, id: "kubejs:washed_crushed_raw_iron" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7300000000001005"]
+			id: "7300000000001006"
+			rewards: [{
+				id: "7300000000003006"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "7300000000002006"
+				item: { count: 1, id: "kubejs:iron_dust" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7300000000001006"]
+			id: "7300000000001007"
+			rewards: [{
+				id: "7300000000003007"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "7300000000002007"
+				item: { count: 1, id: "kubejs:purified_iron_carbon_mix" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7300000000001007"]
+			id: "7300000000001008"
+			rewards: [{
+				id: "7300000000003008"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "7300000000002008"
+				item: { count: 1, id: "kubejs:sintered_iron_mix" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.75d
+		}
+		{
+			dependencies: ["7300000000001004"]
+			id: "7300000000001009"
+			rewards: [{
+				count: 4
+				id: "7300000000003009"
+				item: {
+					count: 1
+					id: "minecraft:iron_ingot"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "7300000000002009"
+				item: { count: 1, id: "minecraft:iron_ingot" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["7300000000001009"]
+			id: "7300000000001010"
+			rewards: [{
+				id: "7300000000003010"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "7300000000002010"
+				item: { count: 1, id: "create:mechanical_press" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["7300000000001010"]
+			id: "7300000000001011"
+			rewards: [{
+				id: "7300000000003011"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "7300000000002011"
+				item: { count: 1, id: "create:iron_sheet" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["7300000000001011"]
+			id: "7300000000001012"
+			rewards: [{
+				id: "7300000000003012"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "7300000000002012"
+				item: { count: 1, id: "create:item_vault" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["7300000000001011"]
+			id: "7300000000001020"
+			rewards: [{
+				id: "7300000000003020"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "7300000000002020"
+				item: { count: 1, id: "create:chute" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["7300000000001009"]
+			id: "7300000000001017"
+			rewards: [{
+				id: "7300000000003017"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "7300000000002017"
+				item: { count: 1, id: "create:basin" }
+				type: "item"
+			}]
+			x: -0.75d
+			y: 8.0d
+		}
+		{
+			dependencies: ["7300000000001011"]
+			id: "7300000000001018"
+			rewards: [{
+				id: "7300000000003018"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "7300000000002018"
+				item: { count: 1, id: "create:whisk" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"7300000000001018"
+				"7300000000001017"
+			]
+			id: "7300000000001019"
+			rewards: [{
+				id: "7300000000003019"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "7300000000002019"
+				item: { count: 1, id: "create:mechanical_mixer" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["7300000000001019"]
+			id: "7300000000001015"
+			rewards: [{
+				id: "7300000000003015"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "7300000000002015"
+				item: { count: 1, id: "minecraft:obsidian" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["7300000000001008"]
+			id: "3E90650D1DCDFACF"
+			rewards: [{
+				id: "231CA5F0A2F4E31A"
+				item: {
+					count: 1
+					id: "minecraft:iron_ingot"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.0d
+			tasks: [{
+				id: "46C8DE86433F2DC9"
+				item: { count: 1, id: "minecraft:iron_ingot" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.75d
+		}
+		{
+			dependencies: ["7300000000001012"]
+			id: "7300000000001021"
+			rewards: [{
+				id: "7300000000003021"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "7300000000002021"
+				item: { count: 1, id: "create:stock_link" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7300000000001021"]
+			id: "7300000000001022"
+			rewards: [{
+				id: "7300000000003022"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "7300000000002022"
+				item: { count: 1, id: "create:stock_ticker" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7300000000001021"]
+			id: "7300000000001023"
+			optional: true
+			rewards: [{
+				id: "7300000000003023"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "7300000000002023"
+				item: { count: 1, id: "create:redstone_requester" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7300000000001012"]
+			id: "7300000000001024"
+			rewards: [{
+				id: "7300000000003024"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "7300000000002024"
+				item: { count: 1, id: "create:packager" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["7300000000001024"]
+			id: "7300000000001025"
+			rewards: [{
+				id: "7300000000003025"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "7300000000002025"
+				item: { count: 1, id: "create:package_frogport" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["7300000000001011"]
+			id: "7300000000001026"
+			rewards: [{
+				id: "7300000000003026"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "7300000000002026"
+				item: { count: 1, id: "createoreexcavation:drill" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 9.5d
+		}
+	]
+}
