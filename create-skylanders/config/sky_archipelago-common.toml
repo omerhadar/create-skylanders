@@ -1,7 +1,7 @@
 #Chance that a cluster cell becomes an island anchor. Lower values create larger sky gaps.
 # Default: 0.4
 # Range: 0.01 ~ 1.0
-islandDensity = 0.8
+islandDensity = 0.9
 #Minimum horizontal island radius in blocks.
 # Default: 24
 # Range: 8 ~ 128
@@ -40,11 +40,11 @@ mediumIslandWeight = 0.0
 #Specific mode: minimum radius for large islands.
 # Default: 59
 # Range: 8 ~ 500
-largeIslandMinRadius = 300
+largeIslandMinRadius = 220
 #Specific mode: maximum radius for large islands.
 # Default: 75
 # Range: 8 ~ 500
-largeIslandMaxRadius = 400
+largeIslandMaxRadius = 300
 #Specific mode: spawn weight for large islands.
 # Default: 0.33
 # Range: 0.0 ~ 1.0
@@ -80,18 +80,18 @@ veryHighBandCenterOffset = 12
 #Average spacing between island clusters in blocks.
 # Default: 96
 # Range: 32 ~ 2000
-clusterSpacing = 1300
+clusterSpacing = 950
 #Cluster spacing mode. CONSISTENT uses fixed spacing. DYNAMIC picks deterministic per-world spacing from min/max.
 #Allowed Values: CONSISTENT, DYNAMIC
 clusterSpacingMode = "CONSISTENT"
 #Dynamic spacing mode: minimum cluster spacing in blocks.
 # Default: 96
 # Range: 32 ~ 2000
-minClusterSpacing = 1300
+minClusterSpacing = 950
 #Dynamic spacing mode: maximum cluster spacing in blocks.
 # Default: 96
 # Range: 32 ~ 2000
-maxClusterSpacing = 1300
+maxClusterSpacing = 950
 #Multiplier for island top-surface height variation. Higher values create rougher, less flat tops.
 # Default: 1.0
 # Range: 0.0 ~ 40.0

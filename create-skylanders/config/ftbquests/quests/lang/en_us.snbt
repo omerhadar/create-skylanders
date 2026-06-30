@@ -26,9 +26,9 @@
 	quest.1F16307E80E7F8C4.quest_desc: [
 		"&6Ore is gated by distance — so fly to it.&r"
 		""
-		"&7Copper doesn't form near spawn; it only generates &ebeyond ~2000 blocks&r out (any direction), with meteors farther still. Each age's metal sits in its own band, so progress means an &oexpedition&r."
+		"&7Copper doesn't form near spawn; it only generates &ebeyond ~1000 blocks&r out (any direction), with meteors farther still. Each age's metal sits in its own band, so progress means an &oexpedition&r."
 		""
-		"&7Board the airship you just built and strike out from spawn. This quest completes itself once you've traveled 2000 blocks, opening the Copper Age."
+		"&7Board the airship you just built and strike out from spawn. This quest completes itself once you've traveled 1000 blocks, opening the Copper Age."
 	]
 	quest.1F16307E80E7F8C4.title: "The Copper Frontier"
 	quest.25CA12E6460FACBC.quest_desc: [
@@ -202,9 +202,9 @@
 	quest.7200000000001001.quest_desc: [
 		"&6Ore is gated by distance — so fly to it.&r"
 		""
-		"&7Copper doesn't form near spawn; it only generates &ebeyond ~2000 blocks&r out (any direction), with meteors farther still. Each age's metal sits in its own band, so progress means an &oexpedition&r."
+		"&7Copper doesn't form near spawn; it only generates &ebeyond ~1000 blocks&r out (any direction), with meteors farther still. Each age's metal sits in its own band, so progress means an &oexpedition&r."
 		""
-		"&7Board the airship you just built and strike out from spawn. This quest completes itself once you've traveled 2000 blocks, opening the Copper Age."
+		"&7Board the airship you just built and strike out from spawn. This quest completes itself once you've traveled 1000 blocks, opening the Copper Age."
 	]
 	quest.7200000000001001.title: "The Copper Frontier"
 	quest.7200000000001002.quest_desc: [
@@ -254,9 +254,9 @@
 	quest.7200000000001012.quest_desc: [
 		"&6Copper mastered. The iron lands call.&r"
 		""
-		"&7Iron forms even farther out — &ebeyond ~3500 blocks&r from spawn. Your airship already flies; provision it and push past the copper band into iron country."
+		"&7Iron forms even farther out — &ebeyond ~2000 blocks&r from spawn. Your airship already flies; provision it and push past the copper band into iron country."
 		""
-		"&7This quest completes itself once you've traveled 3500 blocks from spawn, opening the Iron Age."
+		"&7This quest completes itself once you've traveled 2000 blocks from spawn, opening the Iron Age."
 	]
 	quest.7200000000001012.title: "The Iron Frontier"
 	quest.7200000000001013.quest_desc: ["&7Copper sheets, glass and rubber. Pack a whole &econtraption&r into the capsule, fly it out on your airship, and unpack it at the far island — how a factory travels between bands."]
@@ -358,9 +358,9 @@
 	quest.7300000000001016.quest_desc: [
 		"&6Brass mastered, airships automated. The deep frontier beckons.&r"
 		""
-		"&7Diamonds — and the advanced metals beyond them — lie &epast ~5500 blocks&r from spawn. Set a course and let the Navigation Table do the flying."
+		"&7Diamonds — and the advanced metals beyond them — lie &epast ~3000 blocks&r from spawn. Set a course and let the Navigation Table do the flying."
 		""
-		"&7Completes itself once you've traveled 5500 blocks from spawn, opening the Diamond Age."
+		"&7Completes itself once you've traveled 3000 blocks from spawn, opening the Diamond Age."
 	]
 	quest.7300000000001016.title: "The Diamond Frontier"
 	quest.7300000000001017.quest_desc: ["The work surface of fluid crafting. A Mixer spins above it, ingredients and fluids go in, results pour out the side it faces — or pipe them away."]
@@ -424,9 +424,9 @@
 	quest.7400000000001009.quest_desc: [
 		"&6The furnace stands ready — now feed it.&r"
 		""
-		"&7Steel, lead, nickel, lithium, bauxite: everything the &eAdvanced IBF&r smelts lies &epast ~7000 blocks&r from spawn. Fly out to the deep frontier."
+		"&7Steel, lead, nickel, lithium, bauxite: everything the &eAdvanced IBF&r smelts lies &epast ~4000 blocks&r from spawn. Fly out to the deep frontier."
 		""
-		"&7Completes once you've traveled 7000 blocks from spawn, opening the Advanced Metals age."
+		"&7Completes once you've traveled 4000 blocks from spawn, opening the Advanced Metals age."
 	]
 	quest.7400000000001009.title: "The Advanced Frontier"
 	quest.7400000000001011.quest_desc: ["&7Heated compacting in a Basin — iron + coal → &eCast Iron&r. Cheap, brittle structural metal; the Advanced IBF's hatch is framed in it."]
@@ -438,7 +438,7 @@
 		""
 		"&72 diamonds + 4 obsidian + a book. The &9lapis&r meteors you passed back in the iron band finally pay out."
 		""
-		"&7The 7000-block expedition is the longest flight in the pack — enchanted gear is worth the detour."
+		"&7The 4000-block expedition is the longest flight in the pack — enchanted gear is worth the detour."
 	]
 	quest.7400000000001013.title: "Enchanting Table"
 	quest.7400000000001014.quest_desc: [
@@ -518,7 +518,7 @@
 	]
 	quest.7500000000001023.title: "Refit the Foundry"
 	quest.7500000000001024.quest_desc: [
-		"&6Past 7000, new stone.&r"
+		"&6Past 4000, new stone.&r"
 		""
 		"&7The deep band seams its islands with &egalena&r (lead), &enickel&r and &elithium&r ores, with &ebauxite&r in pockets of its own. Mine a sample of each — the Advanced IBF back home is hungry, and every one of these feeds the Electrical Age."
 	]
@@ -831,10 +831,10 @@
 	task.6343D70443C58540.title: "Rotational Power"
 	task.7100000000002006.title: "Auto-fell a tree"
 	task.7100000000002008.title: "Auto-harvest a field"
-	task.7200000000002001.title: "Reach 2000 blocks from spawn"
-	task.7200000000002012.title: "Reach 3500 blocks from spawn"
-	task.7300000000002016.title: "Reach 5500 blocks from spawn"
-	task.7400000000002009.title: "Reach 7000 blocks from spawn"
+	task.7200000000002001.title: "Reach the Copper Frontier (~1000 blocks out)"
+	task.7200000000002012.title: "Reach the Iron Frontier (~2000 blocks out)"
+	task.7300000000002016.title: "Reach the Diamond Frontier (~3000 blocks out)"
+	task.7400000000002009.title: "Reach the Advanced Frontier (~4000 blocks out)"
 	task.7400000000002014.title: "Fly out enchanted and armored"
 	task.7500000000002023.title: "Route bulk smelting through the Advanced IBF"
 	task.7600000000002013.title: "Mount cannons on a flying airship"

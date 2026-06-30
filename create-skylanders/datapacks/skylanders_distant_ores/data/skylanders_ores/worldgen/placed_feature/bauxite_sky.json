@@ -22,8 +22,8 @@
     },
     {
       "type": "skylandersmeteors:bounded_distance",
-      "min_distance": 7000,
-      "max_distance": 9500,
+      "min_distance": 4000,
+      "max_distance": 5000,
       "base_chance": 0.0
     },
     {
